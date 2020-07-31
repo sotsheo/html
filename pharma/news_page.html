@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/vensdor/slick.css"/>
+	<link href="css/vendors/font-awesome.css" rel="stylesheet" />
+	<link href="css/vendors/plugin.css" rel="stylesheet" />
+	<link href="css/vendors/menu_logo_center.css" rel="stylesheet" />
+	<link href="css/vendors/slick.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/vendors/product.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/reponse.css" />
+	<!-- Modernizr -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="menu-bar-mobile" tabindex="-1">
+		<div class="logo-menu">
+			<a href=""><img class="transition" src="images/logo.png"></a>
+		</div>
+		<div class="search-mobile">
+			<div class="search_center">
+				<div>
+					<div class="search_top">
+						<form method="get" action="/tim-kiem.html?t=2">
+							<input type="text" name="q" value="" class="st-input-text" placeholder="Tìm kiếm" autocomplete="off" required="">
+							<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>           
+				</div>
+			</div>    
+		</div>
+
+		<div class="menu-bar-lv-1">
+			<a class="a-lv-1" href="">Chọn giao diện</a>
+			<div class="menu-bar-lv-2">
+				<a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Bảng giá</a>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Bảng giá</a>
+				</div>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Dịch vụ</a>
+				</div>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Blog</a>
+				</div>
+				<span class="span-lv-2 fa fa-angle-down"></span>
+			</div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Bảng giá</a></div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Dịch vụ</a></div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Blog</a></div>
+			<span class="span-lv-1 fa fa-angle-down"></span>
+		</div>
+		<div class="menu-bar-lv-1"><a href="">Bảng giá</a></div>
+		<div class="menu-bar-lv-1"><a href="">Dịch vụ</a></div>
+		<div class="menu-bar-lv-1">
+			<a class="a-lv-1" href="">Tin tức</a>
+			<div class="menu-bar-lv-2">
+				<a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Bảng giá</a>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Bảng giá</a>
+				</div>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Dịch vụ</a>
+				</div>
+				<div class="menu-bar-lv-3">
+					<a class="a-lv-3" href=""><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>Tin tức</a>
+				</div>
+				<span class="span-lv-2 fa fa-angle-down"></span>
+			</div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Bảng giá</a></div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Dịch vụ</a></div>
+			<div class="menu-bar-lv-2"><a class="a-lv-2" href=""><i class="fa fa-angle-right"></i>Blog</a></div>
+			<span class="span-lv-1 fa fa-angle-down"></span>
+		</div>
+		<div class="menu-bar-lv-1"><a href="">Về chúng tôi</a></div>
+		<div class="menu-bar-lv-1"><a href="">Hỗ trợ</a></div>
+	</div>
+	<div class="shadow-open-menu"></div>
+
+	<div class="page-loader-wrapper">
+		<div class="loader">
+			<div class="preloader">
+				<div class="spinner-layer pl-red">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+
+	<!-- header -->
+	<header>
+		<!-- header top -->
+		<div class="header_top">
+			<div class="container">
+				<!-- logo -->
+				<div class="logo_pc">
+					<a href=""><img src="./images/logo.png"></a>
+				</div>
+				<!-- search box -->
+				<div class="search_pc">
+					<form>
+						<input type="text" name="" placeholder="Tìm kiếm">
+						<select>
+							<option>Tất cả </option>
+							<option>Tìm kiếm</option>
+						</select>
+						<button><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>
+				<!-- hotline -->
+				<div class="hotline">
+					<p>Hotline: <a href="">0369745858</a></p>
+				</div>
+				<div class="menu-btn-show">
+					<span class="border-style"></span>
+					<span class="border-style"></span>
+					<span class="border-style"></span>
+				</div>
+			</div>   		
+		</div>
+
+		<!-- menu top -->
+		<div class="menu_pc">
+			<div class="container">
+				<div class="menu_main ">
+					<ul>
+						<li>
+							<a href="">
+								Trang chủ
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Thuốc & Thực phẩm chức năng
+							</a>
+							<ul>
+								<li>
+									<a href="">Giới thiệu</a>
+									<ul>
+										<li>
+											<a href="">Menu cap 3</a>
+										</li>
+										<li>
+											<a href="">Menu cap 3</a>
+										</li>
+										<li>
+											<a href="">Menu cap 3</a>
+										</li>
+									</ul>
+									<span class="span-lv-2 fa fa-angle-down"></span>
+								</li>
+								<li>
+									<a href="">Đối tác</a>
+								</li>
+								<li>
+									<a href="">Liên hệ</a>
+								</li>
+							</ul>
+							<span class="span-lv-1 fa fa-angle-down"></span>
+						</li>
+						<li>
+							<a href="#">
+								Bệnh
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Chế độ sinh hoạt
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Hệ thống nhà thuốc
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Giỏ hàng
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	
+
+	<div class="main">
+		<div class="breadcrumb">
+			<div class="container">
+				<a href="#">Home</a>
+				<span>/</span>
+				<a href="#">Thuốc & thực phẩm chức năng</a>
+			</div>
+		</div>
+
+		<div class="page_news_detail page_news">
+			<div class="container">
+				<div class="col-xs-12 ">
+					<div class="title_page">
+						<h2>Giới thiệu nhà thuốc Dược Hà Nội</h2>
+						
+					</div>
+					
+					<div class="detail_news">
+						
+						<h2>
+							Tọa lạc tại đường Hai Bà Trưng, một trong những tuyến đường đông đúc nhất địa bàn quận Hoàn Kiếm, Hà Nội, nhà thuốc Dược Hà Nội Là chuỗi nhà thuốc lớn nhất thành phố với 5 nhà thuốc lớn. Thành lập từ năm 2007, trải qua 10 năm năm phát triển, nhà thuốc Dược Hà Nội đã có nhiều thành tựu nổi bật cùng rất nhiều giải thưởng, chứng nhận được trao tặng.
+						</h2>
+						<div class="list_image">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+									<img src="images/img1.png">
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+									<img src="images/img2.png">
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+									<img src="images/img3.png">
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+									<img src="images/img4.png">
+								</div>
+							</div>
+						</div>
+						<p> Cúm là bệnh do virus cấp tính đường hô hấp gây ra trên người và động vật có thể để lại nhiều biến chứng nguy hiểm, thậm chí gây tử vong nhanh nếu không điều trị kịp thời. Cúm có khả năng lây truyền khủng khiếp, được xếp vào một trong những căn bệnh đáng sợ nhất thế giới khi bùng phát thành dịch.</p>
+						
+						<h3> Các thành tựu nổi bật</h3>
+						<p>Cúm là bệnh nhiễm trùng đường hô hấp cấp tính có tính lây lan mạnh do các chủng virus cúm gây nên. Chủng virus cúm có 3 loại A, B và C. Chủng cúm hay gặp ở người là cúm A, cúm B và ở Việt Nam gọi là cúm mùa.</p>
+						<p>Đội ngũ nhân viên, tư vấn, trình dược viên tại nhà thuốc đều là những người có trình độ chuyên môn được đào tạo bài bản và có kinh nghiệm lâu năm trong ngành Dược. Khi mới thành lập, nhà thuốc Dược Hà Nội chỉ có 20 nhân viên, hiện tại con số này đã tăng lên 6 lần (120 nhân viên) trong đó có 8 Dược sĩ đại học còn lại là Dược sĩ Trung cấp.</p>
+						<p>Với hàng trăm sản phẩm được giới thiệu trên website và hàng ngàn sản phẩm khác được bán trực tiếp tại nhà thuốc, nhà thuốc Dược Hà Nội đảm bảo cung cấp đầy đủ các mặt hàng dược phẩm như:</p>
+						
+						<ul>
+							<li>> Các loại thuốc (thuốc nội và thuốc ngoại nhập)</li>
+							<li>> Thực phẩm chức năng: đa số được nhập khẩu từ nước ngoài như: Mỹ, Úc, Pháp, Đan Mạch,…</li>
+							<li>> Dụng cụ y khoa</li>
+							<li>> Sữa dinh dưỡng</li>
+							<li>> Mỹ phẩm và hóa mỹ phẩm</li>
+						</ul>
+						
+						<h3>Tầm nhìn, sứ mệnh</h3>
+						<p>Phục vụ sức khỏe cộng đồng với chất lượng tốt nhất và giá cả hợp lý</p>
+
+						<h3>Phương hướng phát triển</h3>
+						<p>Trong tương lai, nhà thuốc Dược Hà Nội phấn đấu Xây dựng chuỗi nhà thuốc Tây hiện đại, lớn nhất và đạt chuẩn GPP tại Hà Nội và trên cả nước.</p>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- tim kiếm -->
+		<div class="menu_store">
+			<div class="container">
+				<div class="content">
+					<div class="left">
+						<img src="images/store.png">
+						<span>Tìm cửa hàng gần nhất</span>
+					</div>
+					<div class="right">
+						<a href="">Xem hệ thống cửa hàng</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="item_menu">
+						<h3>Danh mục</h3>
+						<ul>
+							<li><a href="">Thuốc & Thực phẩm chức năng</a></li>
+							<li><a href="">Bệnh</a></li>
+							<li><a href="">Chế độ sinh hoạt</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="item_menu">
+						<h3>Nhà thuốc Dược Hà Nội</h3>
+						<ul>
+							<li><a href="">Giới thiệu</a></li>
+							<li><a href="">Lời hứa hẹn</a></li>
+							<li><a href="">Hỗ trợ khách hàng</a></li>
+							<li><a href="">Tin tuyển dụng</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="item_menu">
+						<h3>Các mục khác</h3>
+						<ul>
+							<li><a href="">Liên hệ</a></li>
+							<li><a href="">Chính sách đổi trả</a></li>
+							<li><a href="">Chính sách giao hàng</a></li>
+							<li><a href="">Chính sách bảo mật</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/magiczoomplus.js"></script>
+	<script src="js/slick.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript">
+		$('.slider_main').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			dots: false,
+			arrows:true,
+			infinite: true,
+			speed: 1500,
+			fade: true,
+			cssEase: 'linear',
+			autoplay: true,
+			autoplaySpeed: 4000,
+		});
+		$('.slider_pharma').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:false,
+			dots:false,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
+		});
+		$('.slider_product').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:false,
+			responsive:{
+				0:{
+					items:2,
+					margin:15,
+				},
+				600:{
+					items:2,
+					margin:15,
+				},
+				1000:{
+					items:4
+				}
+			}
+		});
+		$('.slider_news').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:false,
+			responsive:{
+				0:{
+					items:1,
+					margin:15,
+				},
+				600:{
+					items:2,
+					margin:15,
+				},
+				1000:{
+					items:2
+				}
+			}
+		});
+		$('.slider_page').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:false,
+			responsive:{
+				0:{
+					items:1,
+					margin:15,
+				},
+				600:{
+					items:2,
+					margin:15,
+				},
+				1000:{
+					items:3
+				}
+			}
+		});
+	</script>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>

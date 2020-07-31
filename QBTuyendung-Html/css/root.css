@@ -1,0 +1,31 @@
+.d_flex{
+	display: flex;
+}
+.clear_float:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.d_flex_center {
+	align-items: center;
+}
+/*.d_flex_50{
+	width: 50%;
+}*/
+.text_right{
+	text-align: right;
+}
+.p_rea{
+	position: relative;
+}
+.p_ab{
+	position: absolute;
+}
+.p_ab_r{
+	right:15px;
+	top: 0;
+}
+.p_ab_l{
+	left: 15px;
+	top: 0;
+}

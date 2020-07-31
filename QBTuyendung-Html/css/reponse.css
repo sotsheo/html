@@ -1,0 +1,71 @@
+img{
+	max-width: 100%;
+}
+@media (min-width: 1230px){
+	.container {
+		width: 1200px;
+	}
+	.col-lg-25{
+		width: 20%;
+	}
+	.max-w160{
+		width: 1060px;
+	}
+}
+
+@media(max-width: 1200px){
+	.hotline_account {
+		display: none;
+	}
+	
+}
+@media(max-width: 992px){
+	.menu-btn-show{
+		position: static;
+		float: right;
+	}
+	.menu_pc{
+		padding: 5px;
+		text-align: right;
+	}
+	
+}
+@media(max-width: 767px){
+	.logo_slogan a >img:last-child{
+		display: none;
+	}
+	
+	.list_item .item_c{
+		
+		margin-bottom: 10px;
+	}
+}
+@media(max-width: 600px){
+	.search_form .content_form {
+		padding: 10px 10px;
+		height: unset;
+	}
+	.search_form .content_form form {
+		flex-wrap: wrap;
+	}
+	.search_form .content_form .w40 {
+		width: 100%;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.search_form .content_form .w25 {
+		width: 50%;
+	}
+	.search_form .content_form .w16 {
+		width: 100%;
+		border-radius: 0px 0px 5px 5px;
+	}
+	.search_form .content_form  .btn_submit{
+		border-radius: 0px 0px 5px 5px;
+	}
+	.logo_slogan a h3 {
+		font-size: 1rem;
+	}
+	.logo_slogan a h2 {
+		font-size: 1.4rem;
+	}
+}

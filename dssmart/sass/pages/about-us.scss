@@ -1,0 +1,150 @@
+.contact-page{
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	.bg-contact{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		img{
+			height: 100%;
+			min-width: 100%;
+			object-fit: cover;
+		}
+	}
+	.contact-content{
+		float: left;
+		width: 100%;
+		position: relative;
+		z-index: 99;
+		padding: 8rem 0;
+	}
+	.box-white{
+		background: rgba(255, 255, 255, .9);
+		float: right;
+		width: 100%;
+		max-width: 670px;
+		padding: 4rem 7rem;
+		.title-box{
+			float: left;
+			width: 100%;
+			h2{
+				color: #d8bd86;
+				font-family: "UTM Beautiful Caps";
+				font-size: 50px;
+				font-weight: 400;
+				margin: 0px 0px 30px 0;
+				@media (max-width: 480px){
+					font-size: 40px;
+					margin: 20px 0px 20px 0;
+				}
+			}
+		}
+		b, p{
+			float: left;
+			width: 100%;
+			color: #646c75;
+			font-family: "Cormorant Garamond";
+			font-size: 25px;
+			margin-bottom: 15px;
+			@media (max-width: 480px){
+				font-size: 20px;
+			}
+		}
+		.form-contact{
+			float: left;
+			width: 100%;
+			margin-top: 30px;
+		}
+	}
+}
+
+.page-gioithieu{
+	float: left;
+	padding: 3rem 0 6rem 0;
+	width: 100%;
+	.title{
+		float: left;
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+		h2{
+			color: #333333;
+			margin: 0;
+			font-size: 30px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+	.content-gioithieu{
+		float: left;
+		width: 100%;
+		color: #707070;
+		font-size: 22px;
+		font-weight: 400;
+		img{
+			margin-bottom: 20px;
+			min-width: 100%;
+		}
+		tr{
+			td{
+				padding-bottom: 30px;
+			    &:first-child{
+			    	padding-right: 15px;
+			    }
+			    &:last-child{
+			    	padding-left: 15px;
+			    }
+			    @media (max-width: 767px){
+					padding: 0px !important;
+					width: 100%;
+					float: left;
+					padding-bottom: 20px !important;
+				}
+			}
+		}
+		b{
+			color: #000000;
+			font-size: 30px;
+			font-weight: 700;
+		}
+	}
+}
+
+
+.list-image-hot{
+	float: left;
+	margin-bottom: 7rem;
+	width: 100%;
+	.slider-image-hot{
+		float: left;
+		width: 100%;
+		.item-image{
+			float: left;
+			height: 27rem;
+			padding-right: 10px;
+			img{
+				height: 100%;
+				min-width: 100%;
+				object-fit: cover;
+			}
+		}
+		.slick-dots {
+		    bottom: -60px;
+		}
+	}
+
+	.slick-slider:hover .slick-next {
+		visibility: visible;
+		right: 35px;
+		opacity: 1;
+	}
+	.slick-slider:hover .slick-prev {
+		visibility: visible;
+		left: 35px;
+		opacity: 1;
+	}
+}

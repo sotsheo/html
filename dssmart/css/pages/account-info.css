@@ -1,0 +1,69 @@
+/*
+Error: Undefined mixin 'transition'.
+        on line 188 of D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss, in `transition'
+        from line 188 of D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss
+
+183:     background: #fff;
+184:     padding: 10px 0;
+185:     min-width: 200px;
+186:     opacity: 0;
+187:     visibility: hidden;
+188:     @include transition(.4s);
+189:     ul{
+190:         list-style: none;
+191:         padding: 0;
+192:         margin: 0;
+193:         li{
+
+Backtrace:
+D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss:188:in `transition'
+D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss:188
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+E:/kaola/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+E:/kaola/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+E:/kaola/bin/sass:22:in `load'
+E:/kaola/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transition'.\A         on line 188 of D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss, in `transition'\A         from line 188 of D:\ThemeNanoweb\templalate-t3-2017\dssmart\sass\pages\account-info.scss\A \A 183:     background: #fff;\A 184:     padding: 10px 0;\A 185:     min-width: 200px;\A 186:     opacity: 0;\A 187:     visibility: hidden;\A 188:     @include transition(.4s);\A 189:     ul{\A 190:         list-style: none;\A 191:         padding: 0;\A 192:         margin: 0;\A 193:         li{"; }

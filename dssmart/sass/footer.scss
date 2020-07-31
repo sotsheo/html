@@ -1,0 +1,155 @@
+.footer{
+	float: left;
+	width: 100%;
+	padding: 45px 0 10px 0;
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	background: linear-gradient(80.81deg, #142F57 10.8%, #0E589F 103.31%);
+	@media (max-width: 767px){
+		padding: 30px 0 0px 0;
+	}
+	h2{
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 16px;
+		margin-top: 0;
+		text-transform: uppercase;
+		margin-bottom: 7px;
+		float: left;
+		border-bottom: 1px solid #cccccc57;
+		padding-bottom: 6px;
+		a{
+			color: #fff;
+		}
+	}
+	.menu-footer{
+		float: left;
+		width: 100%;
+		margin-bottom: 40px;
+		@media (max-width: 767px){
+			margin-bottom: 20px;
+		}
+		ul{
+			float: left;
+			width: 100%;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			margin-top: 5px;
+			@media (max-width: 767px){
+				margin-top: 10px;
+			}
+			li{
+				float: left;
+				width: 100%;
+				a{
+					color: #D5D5D5;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 20px;
+					display: inline-block;
+					width: 100%;
+					padding: 2px 0;
+					&:hover{
+						color: #1ca349;
+					}
+					span{
+						margin-right: 7px;
+					}
+				}
+			}
+		}
+	}
+	.col-xs-6, .col-xs-12{
+		@media (max-width: 991px){
+			margin-bottom: 30px;
+		}
+		@media (max-width: 480px){
+			width: 100%;
+		}
+	}
+	.top-footer{
+		float: left;
+		width: 100%;
+		.row{
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0;
+			.menu-footer{
+				float: left;
+				width: 20%;
+				@media (max-width: 991px){
+					width: 33.3333%;
+				}
+				@media (max-width: 767px){
+					width: 50%;
+				}	
+				@media (max-width: 480px){
+					width: 100%;
+				}
+			}
+		}
+	}
+	.bot-footer{
+		float: left;
+		width: 100%;
+		border-top: 1px solid #94949442;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+	.newsletter{
+		float: left;
+		width: 100%;
+		p{
+			float: left;
+			width: 100%;
+			margin-top: 10px;
+		}
+		form{
+			input{
+				float: left;
+				width: 100%;
+				color: #878787;
+				height: 43px;
+				background: #fff;
+				border:none;
+				padding: 0px 15px;
+				margin-top: 15px;
+			}
+			input[type="submit"], button{
+				background: #ffcd1e;
+				color: #fff;
+				font-weight: 500;
+				&:hover{
+					background: #333333;
+				}
+			}
+		}
+		img{
+			margin-top: 15px;
+		}
+	}
+	.payment-footer{
+		float: left;
+		width: 100%;
+		img{
+			margin-top: 5px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.copyright{
+	float: left;
+	width: 100%;
+	color: #D5D5D5;
+	font-size: 13px;
+	background: linear-gradient(80.81deg, #142F57 10.8%, #0E589F 103.31%);
+	border-top: 1px solid #94949442;
+	padding: 15px 0 10px 0;
+	p{
+		margin-bottom: 2px;
+	}
+}
