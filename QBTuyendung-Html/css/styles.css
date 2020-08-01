@@ -190,8 +190,8 @@ body{
 	height: 50px;
 	line-height: 50px;
 }
-.mg-b5{
-	margin-bottom: 5%;
+.mg-b3{
+	margin-bottom: 3rem;
 }
 
 
@@ -289,6 +289,9 @@ body{
 	font-size: 2rem;
 	margin-bottom: 1px;
 }
+.item_news{
+	margin-bottom: 15px;
+}
 .item_news .big_img{
 	height: 310px;
 }
@@ -324,12 +327,12 @@ body{
 }
 .item_news .text .time_user >span:after{
 	content: '';
-    position: absolute;
-    right: -13px;
-    top: 1px;
-    height: 80%;
-    width: 1px;
-    background: #000000;
+	position: absolute;
+	right: -13px;
+	top: 1px;
+	height: 80%;
+	width: 1px;
+	background: #000000;
 }
 .item_news .text .time_user >span.remove:after{
 	display: none;
@@ -350,5 +353,110 @@ body{
 	margin-bottom: 2px;
 }
 .item_news .text .time_user  >a span{
+	margin-right: 7px;
+}
+.news_horizontal{
+	border-bottom: 1px solid #E0E0E0;
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	margin-bottom: 0px;
+}
+.news_horizontal:last-child{
+	border-bottom: 0px solid #E0E0E0;
+}
+.news_horizontal .img{
+	width: 35%;
+	height: 90px;
+	float: left;
+}
+.news_horizontal .text{
+	width: 65%;
+	float: left;
+	padding-left: 12px;
+
+}
+.news_horizontal .text h3{
+	margin: 0px;
+	color: #000000;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.news_horizontal .text h3 a{
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.news_horizontal .text >a{
+	font-size: 1.4rem;
+	line-height: 16px;
+	color: #007CBD;
+}
+.item_job {
+	padding: 25px 10px;
+	border-bottom: 1px solid #F1F1F1;
+	transition: all .5s;
+}
+.item_job:last-child {
+	border-bottom: 0px;
+}
+.item_job:hover{
+	background: #EAF8FF;
+	border-radius: 5px;
+}
+.item_job .img{
+	width: 80px;
+}
+.item_job .text{
+	width: 100%;
+	padding: 0px 10px;
+	padding-right: 12%;
+}
+.item_job .btn_submit_job{
+	width: 120px;
+}
+.item_job .text h3 {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+	margin: 0px;
+	color: #007CBD;
+	font-weight: 400;
+}
+.item_job .text h2 {
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	font-weight: 400;
+	margin: 5px 0px;
+}
+.item_job .btn_submit_job .btn{
+	display: block;
+	background: #007CBD;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+	width: 120px;
+	height: 40px;
+}
+.item_job .text  .text_extra{
+	justify-content: space-between;
+	font-size: 1.4rem;
+	line-height: 16px;
+	color: #1C1C1C;
+	margin-top: 15px;
+}
+.item_job .text  .text_extra p{
+	margin: 0px;
+	display: flex;align-items: center;
+}
+.item_job .text  .text_extra span{
 	margin-right: 7px;
 }
