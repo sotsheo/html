@@ -34,5 +34,5 @@ $(document).ready(function(){
         };
     };
     window.addEventListener("scroll", myScrollFunc);
-
+    setTimeout(function () { $('.page-loader-wrapper').fadeOut(); }, 50);
 });
