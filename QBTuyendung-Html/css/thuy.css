@@ -1,0 +1,731 @@
+/* auth form */
+.auth-main {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.auth-main .am_row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 5px 2px #f5f5f5;
+}
+
+.auth-main .am_row .am_img_container {
+    width: 60%;
+}
+
+.auth-main .am_row .am_img_container img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.auth-main .am_row .am_auth_form {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 6rem;
+}
+
+.auth-main .am_row .am_auth_form .af_title,
+.contact_main .cm_row .contact_info .ci_title {
+    font: normal bold 21px/25px "Roboto";
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.auth-main .am_row .am_auth_form .rela_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font: normal normal 14px/16px "Roboto";
+    border: 1px solid #007CBD;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 1.6rem;
+    border-radius: 5px;
+}
+
+.auth-main .am_row .am_auth_form .rela_input:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.auth-main .am_row .am_auth_form .rela_input .af_input {
+    padding: 12px 16px;
+    font: normal normal 14px/16px "Roboto";
+    color: #141414;
+    width: 92%;
+    border-radius: 5px;
+    border: unset;
+    outline: unset;
+}
+
+.auth-main .am_row .am_auth_form .rela_input .af_input::placeholder {
+    color: #6B6B6B;
+}
+
+.auth-main .am_row .am_auth_form .rela_input .af_input:focus::placeholder {
+    color: transparent;
+}
+
+.auth-main .am_row .am_auth_form .rela_input .af_input:focus~.af_input_suffix {
+    color: rgba(0, 124, 189, 0.9);
+}
+
+.auth-main .am_row .am_auth_form .rela_input .af_input_suffix {
+    width: 8%;
+    color: rgba(0, 124, 189, 0.5);
+}
+
+.auth-main .am_row .am_auth_form .af-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-main .am_row .am_auth_form .af-flex .aff-check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.auth-main .am_row .am_auth_form .af-flex .aff-check input[type=checkbox] {
+    margin-top: 0;
+    bottom: 0;
+    margin-right: 5px;
+}
+
+.auth-main .am_row .am_auth_form .af-flex .aff-check label {
+    font: normal italic 14px/16px "Roboto";
+    color: #1C1C1C;
+}
+
+.auth-main .am_row .am_auth_form .af-flex .aff-forgot {
+    font: normal italic 14px/16px "Roboto";
+    color: #007CBD;
+}
+
+.auth-main .am_row .am_auth_form .af_btn_submit {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #007CBD;
+    border: 1px solid #007CBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font: normal bold 14px/16px "Roboto";
+    padding: 1.4rem;
+    margin: 1.4rem 0;
+}
+
+.auth-main .am_row .am_auth_form .af_btn_submit:hover,
+.auth-main .am_row .am_auth_form .af_btn_submit:focus,
+.auth-main .am_row .am_auth_form .af_btn_submit:active {
+    color: #007CBD;
+    background: #fff;
+    border: 1px solid #007CBD;
+}
+
+.auth-main .am_row .am_auth_form .af_p {
+    font: normal normal 14px/16px "Roboto";
+    /* Style Weight Size/Height Family */
+    color: #000000;
+    margin-top: 0;
+}
+
+.auth-main .am_row .am_auth_form .af_p-link {
+    color: #007CBD;
+}
+
+.auth-main .am_row .am_auth_form .af_p-left {
+    width: 100%;
+    text-align: left;
+}
+
+.auth-main .am_row .am_auth_form .img_email {
+    margin-bottom: 2.5rem;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a {
+    width: 49%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font: normal bold 14px/16px "Roboto";
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a:first-child {
+    color: #fff;
+    background: #007CBD;
+    border: 1px solid #007CBD;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a:first-child:hover,
+.auth-main .am_row .am_auth_form .af_social_login a:first-child:active,
+.auth-main .am_row .am_auth_form .af_social_login a:first-child:focus {
+    color: #007CBD;
+    background: #fff;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a:last-child {
+    color: #fff;
+    background: #FA110D;
+    border: 1px solid #FA110D;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a:last-child:hover,
+.auth-main .am_row .am_auth_form .af_social_login a:last-child:active,
+.auth-main .am_row .am_auth_form .af_social_login a:last-child:focus {
+    color: #FA110D;
+    background: #fff;
+}
+
+.auth-main .am_row .am_auth_form .af_social_login a i {
+    margin-right: 1.5rem;
+}
+
+.auth-main .am_row .am_auth_form .af_register_link {
+    font: normal normal 14px/16px "Roboto";
+    color: #000000;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .auth-main .am_row {
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .auth-main .am_row .am_img_container {
+        display: none;
+    }
+
+    .auth-main .am_row .am_auth_form {
+        width: 90%;
+        padding: 0;
+        transform: translate();
+        background-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .auth-main .am_row {
+        justify-content: center;
+    }
+
+    .auth-main .am_row .am_img_container {
+        display: none;
+    }
+
+    .auth-main .am_row .am_auth_form {
+        width: 70%;
+        padding: 0;
+        transform: translate();
+        background-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .auth-main .am_row {
+        position: relative;
+    }
+
+    .auth-main .am_row .am_img_container {
+        width: 100%;
+    }
+
+    .auth-main .am_row .am_img_container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .auth-main .am_row .am_auth_form {
+        position: absolute;
+        width: 60%;
+        padding: 2rem;
+        z-index: 1;
+        right: 0;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .auth-main .am_row .am_auth_form {
+        padding: 1.5rem 3rem;
+    }
+}
+
+/* end auth form */
+
+/* lien he */
+.banner_main-small .bm_container {
+    height: 248px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_main-small .bm_container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner_main-small .bm_container .bm_page_title {
+    font: normal bold 42px/50px "SVN-Kelson Sans";
+    letter-spacing: 0.07em;
+    color: #fff;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.contact_main .cm_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3.5rem;
+}
+
+.contact_main .cm_row .contact_form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 59%;
+}
+
+.contact_main .cm_row .contact_form .cf_input {
+    width: 100%;
+    font: normal normal 14px/16px "Roboto";
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    padding: 12px 16px;
+}
+
+.contact_main .cm_row .contact_form .cf_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact_main .cm_row .contact_form .cf_row .cf_input {
+    width: 48%;
+}
+
+.contact_main .cm_row .contact_form .cf_btn_submit {
+    background: #007CBD;
+    border-radius: 5px;
+    border: 1px solid #007CBD;
+    color: #fff;
+    font: normal bold 14px/16px "Roboto";
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+.contact_main .cm_row .contact_form .cf_btn_submit:hover,
+.contact_main .cm_row .contact_form .cf_btn_submit:active,
+.contact_main .cm_row .contact_form .cf_btn_submit:focus {
+    background: #fff;
+    color: #007CBD;
+}
+
+.contact_main .cm_row .contact_form .cf_btn_submit i {
+    margin-right: 10px;
+}
+
+.contact_info {
+    width: 39%;
+}
+
+.contact_info .ci_title {
+    font: normal bold 18px/21px "Roboto";
+}
+
+.contact_info .ci_row {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.contact_info .ci_row img {
+    width: 25px;
+    height: auto;
+    object-position: 50% 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.contact_info .ci_row .cir_title {
+    margin-top: 0;
+    margin-bottom: .6rem;
+    font: normal bold 14px/16px "Roboto";
+    color: #1C1C1C;
+}
+
+.contact_info .ci_row .cir_p {
+    margin-top: 0;
+    font: normal normal 14px/16px "Roboto";
+    color: #1C1C1C;
+}
+
+.map_container {
+    width: 100%;
+}
+
+.map_container iframe {
+    width: 100%;
+    height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact_main .cm_row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 2.5rem 0;
+    }
+
+    .contact_main .cm_row .contact_form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact_main .cm_row .contact_info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .contact_main .cm_row {
+        padding: 2.5rem 0;
+    }
+}
+
+/* end lien he */
+
+/* gioi thieu */
+.introduce_main {
+    padding: 2rem 0;
+}
+
+.introduce_main .im_intro {
+    background-image: url('../images/bg_gt.png');
+    background-color: #007CBD;
+    background-repeat: no-repeat;
+}
+
+.introduce_main .im_intro .container {
+    position: relative;
+}
+
+.introduce_main .im_intro .im_content {
+    width: 50%;
+    font: normal normal 14px/16px "Roboto";
+    color: #fff;
+    text-align: justify;
+}
+
+.introduce_main .im_intro .im_img_container {
+    position: absolute;
+    right: 0;
+    width: 47%;
+    bottom: 4rem;
+    border: 8px solid #fff;
+}
+
+.introduce_main .im_intro .im_img_container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.introduce_main .im_mandates .imm_title,
+.introduce_main .im_structure .ims_title {
+    font: normal bold 24px/28px "Roboto";
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.introduce_main .im_mandates .imm_title::before,
+.introduce_main .im_structure .ims_title::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    left: 0;
+    bottom: -8px;
+    background: #007CBD;
+}
+
+.introduce_main .im_mandates .imm_content {
+    font: normal normal 14px/16px "Roboto";
+    color: #000000;
+}
+
+.introduce_main .im_mandates .imm_content h1,
+.introduce_main .im_mandates .imm_content h2,
+.introduce_main .im_mandates .imm_content h3,
+.introduce_main .im_mandates .imm_content h4,
+.introduce_main .im_mandates .imm_content h5,
+.introduce_main .im_mandates .imm_content h6 {
+    margin: 12px 0;
+}
+
+.introduce_main .im_mandates .imm_content ol,
+.introduce_main .im_mandates .imm_content ul {
+    padding-left: 3rem;
+}
+
+.introduce_main .im_mandates .imm_content ol li,
+.introduce_main .im_mandates .imm_content ul li {
+    list-style-type: none;
+    line-height: 1.5;
+    position: relative;
+}
+
+.introduce_main .im_mandates .imm_content ol li::before,
+.introduce_main .im_mandates .imm_content ul li::before {
+    content: url(../images/im.svg);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -2rem;
+    font-size: 12px;
+    color: #007CBD;
+}
+
+.introduce_main .im_structure .ims_content .staff_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.introduce_main .im_structure .ims_content .staff_info .si_img_container {
+    position: relative;
+    margin-bottom: 3rem;
+    width: 160px;
+    height: 160px;
+}
+
+.introduce_main .im_structure .ims_content .staff_info .si_img_container img {
+    border-radius: 50%;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:first-child .si_img_container {
+    width: 276px;
+    height: 276px;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:first-child .si_img_container img {
+    border-radius: 50%;
+    box-shadow: -20px -13px 0px 0px #007CBD;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:first-child .si_img_container::after {
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    background-color: rgba(0, 124, 189, 0.3);
+    bottom: 2rem;
+    right: -1rem;
+    border-radius: 50%;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:not(:first-child) .si_img_container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: unset;
+    border: 1px solid #007CBD;
+    bottom: -0.5rem;
+    right: -2rem;
+    border-radius: 50%;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:nth-child(2) .si_img_container,
+.introduce_main .im_structure .ims_content .staff_info:nth-child(3) .si_img_container {
+    width: 207px;
+    height: 207px;
+}
+
+.introduce_main .im_structure .ims_content .staff_info p {
+    margin-bottom: 0;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.introduce_main .im_structure .ims_content .staff_info .si_position,
+.introduce_main .im_structure .ims_content .staff_info .si_name,
+.introduce_main .im_structure .ims_content .staff_info .si_contact {
+    font: normal bold 14px/16px "Roboto";
+    color: #000000;
+}
+
+.introduce_main .im_structure .ims_content .staff_info .si_position {
+    font-weight: normal;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:first-child p {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.introduce_main .im_structure .ims_content .staff_info:nth-child(2) p,
+.introduce_main .im_structure .ims_content .staff_info:nth-child(3) p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/* end gioi thieu */
+
+/* thu vien */
+.gallery_main .gm_head {
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.gallery_main .gm_head .gmh_title {
+    font: normal bold 28px/33px "Roboto";
+    color: #1C1C1C;
+    margin-bottom: 0;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+.gallery_main .gm_head .gmh_title::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: #007CBD;
+}
+
+.gallery_main .gm_head .gmh_link {
+    font: normal normal 18px/21px "Roboto";
+    color: #1C1C1C;
+}
+
+.gallery_main .gm_head .gmh_link:hover,
+.gallery_main .gm_head .gmh_link:focus {
+    font: normal normal 18px/21px "Roboto";
+    color: #161515;
+}
+
+.gallery_main .gm_gallery {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem; */
+    margin-top: 3rem;
+
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 100%;
+}
+
+.gallery_main .gm_gallery .gmg_img_container {
+    position: relative;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.gallery_main .gm_gallery .gmg_img_container img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery_main .gm_gallery .gmg_img_container:hover .gmg_overlay{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.gallery_main .gm_gallery .gmg_img_container .gmg_overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 124, 189, 0.7);
+    transition: all .5s ease-in;
+    font: normal bold 14px/16px "Roboto";
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gallery_main .gm_gallery .gmg_img_container .gmg_overlay h5{
+    width: 80%;
+}
+
+.gallery_main .gm_gallery .gmg_img_container .gmg_overlay a{
+    font: normal normal 14px/16px "Roboto";
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gallery_main .gm_gallery .gmg_img_container .gmg_overlay a i{
+   margin-right: 1rem;
+}
+/* end thu vien */

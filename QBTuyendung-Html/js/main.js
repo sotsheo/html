@@ -1,4 +1,5 @@
- $('.count_home').counterUp({
+
+$('.count_home').counterUp({
       delay: 100,
       time: 8000
     });
