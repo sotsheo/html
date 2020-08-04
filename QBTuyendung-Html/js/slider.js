@@ -48,6 +48,23 @@ $('.slider_album').owlCarousel({
         }
     }
 });
+$('.banner_in_td').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
 $('.slider_dt').owlCarousel({
     loop:false,
     margin:50,

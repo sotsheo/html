@@ -9,9 +9,21 @@
 .d_flex_center {
 	align-items: center;
 }
-/*.d_flex_50{
-	width: 50%;
-}*/
+
+.paginate{
+	float: none;
+padding-bottom: 0px;
+    margin-bottom: 0px;
+	height: unset;
+}
+.pagination{
+	margin: 0px;
+}
+.float_clear:after{
+	clear: both;
+	content: '';
+	display: table;
+}
 .text_right{
 	text-align: right;
 }
@@ -28,4 +40,23 @@
 .p_ab_l{
 	left: 15px;
 	top: 0;
+}
+.paginate .pagination>li a {
+    border: 1px solid #fff;
+}
+.paginate .pagination>li a {
+    padding: 3px 7px;
+    margin-left: -1px;
+    line-height: normal;
+   
+}
+.not-scroll{
+	overflow: hidden;
+}
+.paginate .pagination>li.active a, .paginate .pagination>li:hover a {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+  	background: #007CBD;
+    border-color: #007CBD;
 }
