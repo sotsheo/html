@@ -50,7 +50,7 @@ img{
 		padding: 0px;
 	}
 	.item_job .text h3 {
-		padding-right: 150px;
+		padding-right: 67px;
 		position: relative;
 	}
 	.item_job .text h3 span {
@@ -232,6 +232,9 @@ img{
 	}
 }
 @media(max-width: 600px){
+	.item_job {
+		width: 100%;
+	}
 	.item_job .text .text_extra {
 		justify-content: space-between;
 		font-size: 1.4rem;
