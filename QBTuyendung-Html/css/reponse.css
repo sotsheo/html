@@ -181,9 +181,74 @@ img{
 	.item_job {
 		padding: 10px;
 	}	
-
+	.page_if_uv .row .col-lg-3{
+		width: 30%;
+	}
+	.page_if_uv .row .col-lg-9{
+		width: 70%;
+		min-width: 70%;
+	}
+	.page_if_uv .row.bg_w {
+		flex-wrap: wrap;
+	}
+	.name_uv{
+		display: none;
+	}
+	.avatar_uv{
+		margin-bottom: 10px;
+		padding-top: 15px;
+	}
+	.avatar_uv p.av{
+		margin: 0px auto;
+		margin-bottom: 20px;
+		width: 100px;
+		height: 100px;
+	}
+	.page_if_uv .row .col-lg-9{
+		width: 70%;
+		min-width: 70%;
+	}
+	.avatar_uv h2,
+	.avatar_uv p:not(.av),
+	.avatar_uv a{
+		display: block;
+	}
 }
 @media(max-width: 767px){
+	
+	.page_if_uv .row .col-lg-9{
+		width: 100%;
+		min-width: 100%;
+	}
+	.grip.d_flex{
+		flex-wrap: wrap;
+	}
+	.content_text_one p{
+		flex-wrap: wrap;
+		margin-bottom: 0px;
+	}
+	.content_text_one p >span{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	.qc-r{
+		padding: 0px;
+		text-align: center;
+		padding: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.pad_r {
+		padding: 15px;
+
+	}
+	.left_uv {
+		width: 100%;
+	}
+	.page_if_uv .row .col-lg-3{
+		width: 100%;
+	}
 	.news_cate .img {
 		height: unset;
 	}
