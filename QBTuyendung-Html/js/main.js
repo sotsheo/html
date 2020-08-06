@@ -53,6 +53,12 @@ $(document).ready(function(){
             $("body").removeClass("fixed");
         };
     };
+    var body = $("html, body");
+    $(".button_sc a").click(function(){
+        body.stop().animate({scrollTop:0}, 1000, 'swing', function() { });
+        return false;
+    });
+    myScrollFunc();
     window.addEventListener("scroll", myScrollFunc);
     setTimeout(function () { $('.page-loader-wrapper').fadeOut(); }, 50);
 });
