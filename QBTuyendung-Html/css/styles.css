@@ -222,6 +222,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: all .5s;
 }
 .list_item .item_c:last-child{
 	margin-right: 0px;
@@ -241,8 +242,11 @@
 	background: #007CBD;
 	border: 1px solid #007CBD;
 	box-sizing: border-box;
-	box-shadow: 3px 4px 11px rgba(0, 0, 0, 0.21);
+	
 	border-radius: 5px;
+}
+.list_item .item_c:hover{
+	box-shadow: 3px 4px 11px rgba(0, 0, 0, 0.21);
 }
 .list_item .item_c img{
 	margin-bottom: 10px;
@@ -308,7 +312,7 @@
 }
 .item_news .text h3{
 	margin: 0px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .item_news .text h3 a{
 	font-style: normal;
@@ -1279,6 +1283,10 @@ footer{
 	line-height: 40px;
 	font-size: 1.4rem;
 	color: #FFFFFF;
+	width: 172px;
+}
+.request_job .btn_nop{
+	float: right;
 }
 .btn_nop:hover{
 	color: #FFFFFF;
@@ -1316,7 +1324,7 @@ footer{
 	color: #000000;
 }
 .content_page  .info .content_info .btn_nop{
-	width: 150px;
+	width: 172px;
 }
 .content_page  .info p a{
 	font-weight: 700;
@@ -1436,12 +1444,12 @@ footer{
 	
 }
 .info_company .content_info_c .list_job_c .item:hover {
-	background: #0f8fd2;
+	background: #e6f3fa;
 }
-.info_company .content_info_c .list_job_c .item:hover h4,
+/*.info_company .content_info_c .list_job_c .item:hover h4,
 .info_company .content_info_c .list_job_c .item:hover p {
 	color: #fff;
-}
+}*/
 .title_group >a{
 	display: block;text-align: center;
 	padding: 20px 0px;
@@ -1609,7 +1617,7 @@ footer{
 	margin: 0px;
 	margin-bottom: 10px;
 	color: #000000;
-	height: 100px;
+	height: 76px;
 	overflow: hidden;
 	-webkit-line-clamp: 5;
 	display: -webkit-box;
@@ -1699,7 +1707,7 @@ footer{
 	margin: 0px;
 }
 .name_uv .row .col-xs-9 p{
-	font-size: 2.1rem;
+	font-size: 1.6rem;
 	color: #FFFFFF;
 	margin: 0px;
 }
@@ -2138,6 +2146,10 @@ body::-webkit-scrollbar-thumb:hover {
 	from{transform: scale(1);}
 	to{transform: scale(1.2);}
 }
+.info_company .content_info_c h3 {
+    background: #007cbd;
+    color: #fff;
+}
 @media(min-width: 1200px){
 	.pd-r10{
 		padding-right: 10px;
@@ -2146,7 +2158,7 @@ body::-webkit-scrollbar-thumb:hover {
 		padding-left: 10px;
 	}
 	.item_news .big_img {
-		padding: 36%;
+		padding: 30%;
 	}
 	.item_news .big_img img{
 		min-width: 100%;
@@ -2187,5 +2199,10 @@ body::-webkit-scrollbar-thumb:hover {
 	}
 	.logo_slogan a h2 {
 		font-size: 2.1rem;
+	}
+	.name_uv .row .col-xs-9 a {
+	    position: absolute;
+	    right: 0;
+	    bottom: 15px;
 	}
 }
