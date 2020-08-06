@@ -36,7 +36,10 @@ $(".iconmenu").click(function() {
 });
 
 $(document).ready(function(){
-
+    var body = $("html, body");
+    body.stop().animate({scrollTop:0}, 500, 'swing', function() { 
+       alert("Finished animating");
+    });
     if ($(window).width() < 992 ) {
         $('.main-menu ul li').find('.span-lv-1').click(function(){
             if ($('.main-menu > ul > li').hasClass('active')) {
