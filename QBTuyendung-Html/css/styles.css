@@ -10,8 +10,14 @@
 
 }*/
 @font-face {
-	font-family: SVN-Kelson;
+	font-family: "SVN-Kelson";
 	src: url(../fonts/SVN-Kelson.otf);
+	font-weight: 100; 
+}
+
+@font-face {
+	font-family: "Rockwell-Condensed";
+	src: url(../fonts/Rockwell-Condensed.ttf);
 	font-weight: 100; 
 }
 
