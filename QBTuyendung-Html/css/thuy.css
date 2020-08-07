@@ -1,28 +1,30 @@
 /* auth form */
-.auth-main {
+.auth_main {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    margin-bottom: -30px;
+    background-color: #F6F6F6;
 }
 
-.auth-main .am_row {
+.auth_main .am_row {
     display: flex;
     justify-content: flex-start;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1px 5px 2px #f5f5f5;
 }
 
-.auth-main .am_row .am_img_container {
+.auth_main .am_row .am_img_container {
     width: 60%;
 }
 
-.auth-main .am_row .am_img_container img {
+.auth_main .am_row .am_img_container img {
     object-fit: cover;
     object-position: 50% 50%;
     width: auto;
     height: 100%;
 }
 
-.auth-main .am_row .am_auth_form {
+.auth_main .am_row .am_auth_form {
     width: 40%;
     height: 100%;
     display: flex;
@@ -33,7 +35,7 @@
     margin: auto;
 }
 
-.auth-main .am_row .am_auth_form .af_title {
+.auth_main .am_row .am_auth_form .af_title {
     font: normal bold 21px/25px "Roboto";
     color: #000000;
     margin-top: 0;
@@ -41,7 +43,7 @@
     text-transform: uppercase;
 }
 
-.auth-main .am_row .am_auth_form .rela_input {
+.auth_main .am_row .am_auth_form .rela_input {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,11 +56,11 @@
     border-radius: 5px;
 }
 
-.auth-main .am_row .am_auth_form .rela_input:nth-child(6) {
+.auth_main .am_row .am_auth_form .rela_input:nth-child(6) {
     margin-bottom: 0;
 }
 
-.auth-main .am_row .am_auth_form .rela_input .af_input {
+.auth_main .am_row .am_auth_form .rela_input .af_input {
     padding: 12px 16px;
     font: normal normal 14px/16px "Roboto";
     color: #141414;
@@ -68,53 +70,53 @@
     outline: unset;
 }
 
-.auth-main .am_row .am_auth_form .rela_input .af_input::placeholder {
+.auth_main .am_row .am_auth_form .rela_input .af_input::placeholder {
     color: #6B6B6B;
 }
 
-.auth-main .am_row .am_auth_form .rela_input .af_input:focus::placeholder {
+.auth_main .am_row .am_auth_form .rela_input .af_input:focus::placeholder {
     color: transparent;
 }
 
-.auth-main .am_row .am_auth_form .rela_input .af_input:focus~.af_input_suffix {
+.auth_main .am_row .am_auth_form .rela_input .af_input:focus~.af_input_suffix {
     color: rgba(0, 124, 189, 0.9);
 }
 
-.auth-main .am_row .am_auth_form .rela_input .af_input_suffix {
+.auth_main .am_row .am_auth_form .rela_input .af_input_suffix {
     width: 8%;
     color: rgba(0, 124, 189, 0.5);
 }
 
-.auth-main .am_row .am_auth_form .af-flex {
+.auth_main .am_row .am_auth_form .af-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.auth-main .am_row .am_auth_form .af-flex .aff-check {
+.auth_main .am_row .am_auth_form .af-flex .aff-check {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.auth-main .am_row .am_auth_form .af-flex .aff-check input[type=checkbox] {
+.auth_main .am_row .am_auth_form .af-flex .aff-check input[type=checkbox] {
     margin-top: 0;
     bottom: 0;
     margin-right: 5px;
 }
 
-.auth-main .am_row .am_auth_form .af-flex .aff-check label {
+.auth_main .am_row .am_auth_form .af-flex .aff-check label {
     font: normal italic 14px/16px "Roboto";
     color: #1C1C1C;
 }
 
-.auth-main .am_row .am_auth_form .af-flex .aff-forgot {
+.auth_main .am_row .am_auth_form .af-flex .aff-forgot {
     font: normal italic 14px/16px "Roboto";
     color: #007CBD;
 }
 
-.auth-main .am_row .am_auth_form .af_btn_submit {
+.auth_main .am_row .am_auth_form .af_btn_submit {
     width: 100%;
     display: block;
     text-align: center;
@@ -128,15 +130,15 @@
     margin: 1.4rem 0;
 }
 
-.auth-main .am_row .am_auth_form .af_btn_submit:hover,
-.auth-main .am_row .am_auth_form .af_btn_submit:focus,
-.auth-main .am_row .am_auth_form .af_btn_submit:active {
+.auth_main .am_row .am_auth_form .af_btn_submit:hover,
+.auth_main .am_row .am_auth_form .af_btn_submit:focus,
+.auth_main .am_row .am_auth_form .af_btn_submit:active {
     color: #007CBD;
     background: #fff;
     border: 1px solid #007CBD;
 }
 
-.auth-main .am_row .am_auth_form .af_p {
+.auth_main .am_row .am_auth_form .af_p {
     font: normal normal 14px/16px "Roboto";
     /* Style Weight Size/Height Family */
     color: #000000;
@@ -144,21 +146,21 @@
     text-align: center;
 }
 
-.auth-main .am_row .am_auth_form .af_p-link {
+.auth_main .am_row .am_auth_form .af_p-link {
     color: #007CBD;
 }
 
-.auth-main .am_row .am_auth_form .af_p-left {
+.auth_main .am_row .am_auth_form .af_p-left {
     width: 100%;
     text-align: left;
     padding-left: 2rem;
 }
 
-.auth-main .am_row .am_auth_form div .af_p-left:last-child {
+.auth_main .am_row .am_auth_form div .af_p-left:last-child {
     margin-bottom: 0;
 }
 
-.auth-main .am_row .am_auth_form .img_email_container {
+.auth_main .am_row .am_auth_form .img_email_container {
     width: 50px;
     height: 50px;
     display: flex;
@@ -167,7 +169,7 @@
     margin-bottom: 2.5rem;
 }
 
-.auth-main .am_row .am_auth_form .img_success_container {
+.auth_main .am_row .am_auth_form .img_success_container {
     width: 50px;
     height: 50px;
     display: flex;
@@ -192,11 +194,11 @@
     }
 }
 
-.auth-main .am_row .am_auth_form .img_email {
+.auth_main .am_row .am_auth_form .img_email {
     height: auto;
 }
 
-.auth-main .am_row .am_auth_form .img_success {
+.auth_main .am_row .am_auth_form .img_success {
     height: auto;
     animation-name: a-success;
     animation-duration: 2s;
@@ -206,14 +208,14 @@
     width: 100%;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login {
+.auth_main .am_row .am_auth_form .af_social_login {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a {
+.auth_main .am_row .am_auth_form .af_social_login a {
     width: 49%;
     display: block;
     text-align: center;
@@ -225,61 +227,61 @@
     margin-bottom: 1rem;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a:first-child {
+.auth_main .am_row .am_auth_form .af_social_login a:first-child {
     color: #fff;
     background: #007CBD;
     border: 1px solid #007CBD;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a:first-child:hover,
-.auth-main .am_row .am_auth_form .af_social_login a:first-child:active,
-.auth-main .am_row .am_auth_form .af_social_login a:first-child:focus {
+.auth_main .am_row .am_auth_form .af_social_login a:first-child:hover,
+.auth_main .am_row .am_auth_form .af_social_login a:first-child:active,
+.auth_main .am_row .am_auth_form .af_social_login a:first-child:focus {
     color: #007CBD;
     background: #fff;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a:last-child {
+.auth_main .am_row .am_auth_form .af_social_login a:last-child {
     color: #fff;
     background: #FA110D;
     border: 1px solid #FA110D;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a:last-child:hover,
-.auth-main .am_row .am_auth_form .af_social_login a:last-child:active,
-.auth-main .am_row .am_auth_form .af_social_login a:last-child:focus {
+.auth_main .am_row .am_auth_form .af_social_login a:last-child:hover,
+.auth_main .am_row .am_auth_form .af_social_login a:last-child:active,
+.auth_main .am_row .am_auth_form .af_social_login a:last-child:focus {
     color: #FA110D;
     background: #fff;
 }
 
-.auth-main .am_row .am_auth_form .af_social_login a i {
+.auth_main .am_row .am_auth_form .af_social_login a i {
     margin-right: 1.5rem;
 }
 
-.auth-main .am_row .am_auth_form .af_register_link {
+.auth_main .am_row .am_auth_form .af_register_link {
     font: normal normal 14px/16px "Roboto";
     color: #000000;
     margin-bottom: 0;
 }
 
 @media only screen and (max-width: 575px) {
-    .auth-main .am_row {
+    .auth_main .am_row {
         justify-content: center;
         flex-direction: column-reverse;
         padding: 2rem 0;
     }
 
-    .auth-main .am_row .am_img_container {
+    .auth_main .am_row .am_img_container {
         width: 90%;
         margin: auto;
         margin-top: 2rem;
     }
 
-    .auth-main .am_row .am_img_container img {
+    .auth_main .am_row .am_img_container img {
         width: 100%;
         height: auto;
     }
 
-    .auth-main .am_row .am_auth_form {
+    .auth_main .am_row .am_auth_form {
         width: 90%;
         padding: 0;
         transform: translate();
@@ -288,24 +290,24 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .auth-main .am_row {
+    .auth_main .am_row {
         justify-content: center;
         flex-direction: column-reverse;
         padding: 2rem 0;
     }
 
-    .auth-main .am_row .am_img_container {
+    .auth_main .am_row .am_img_container {
         width: 70%;
         margin: auto;
         margin-top: 2rem;
     }
 
-    .auth-main .am_row .am_img_container img {
+    .auth_main .am_row .am_img_container img {
         width: 100%;
         height: auto;
     }
 
-    .auth-main .am_row .am_auth_form {
+    .auth_main .am_row .am_auth_form {
         width: 70%;
         padding: 0;
         transform: translate();
@@ -314,20 +316,20 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .auth-main .am_row {
+    .auth_main .am_row {
         position: relative;
     }
 
-    .auth-main .am_row .am_img_container {
+    .auth_main .am_row .am_img_container {
         width: 100%;
     }
 
-    .auth-main .am_row .am_img_container img {
+    .auth_main .am_row .am_img_container img {
         width: 100%;
         height: auto;
     }
 
-    .auth-main .am_row .am_auth_form {
+    .auth_main .am_row .am_auth_form {
         position: absolute;
         width: 60%;
         padding: 2rem;
@@ -340,7 +342,7 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .auth-main .am_row .am_auth_form {
+    .auth_main .am_row .am_auth_form {
         padding: 1.5rem 3rem;
     }
 }
