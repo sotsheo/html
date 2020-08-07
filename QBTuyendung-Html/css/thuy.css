@@ -29,7 +29,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 1rem 6rem;
+    padding: 3rem 6rem;
     margin: auto;
 }
 
@@ -148,10 +148,6 @@
     color: #007CBD;
 }
 
-.auth-main .am_row .am_auth_form div {
-    width: 100%;
-}
-
 .auth-main .am_row .am_auth_form .af_p-left {
     width: 100%;
     text-align: left;
@@ -163,6 +159,15 @@
 }
 
 .auth-main .am_row .am_auth_form .img_email_container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.auth-main .am_row .am_auth_form .img_success_container {
     width: 50px;
     height: 50px;
     display: flex;
@@ -189,10 +194,17 @@
 
 .auth-main .am_row .am_auth_form .img_email {
     height: auto;
+}
+
+.auth-main .am_row .am_auth_form .img_success {
+    height: auto;
     animation-name: a-success;
     animation-duration: 2s;
 }
 
+.af_p_container {
+    width: 100%;
+}
 
 .auth-main .am_row .am_auth_form .af_social_login {
     display: flex;
