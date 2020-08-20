@@ -40,6 +40,19 @@ jQuery('.slider_item').owlCarousel({
 	items: 1,
 	navText: ['<img src="./assets/img/next.png">', '<img src="./assets/img/next.png">'],
 });
+$(document).ready(function(e){
+		wow = new WOW(
+	      {
+	        animateClass: 'animated',
+	        offset:       100,          // default
+            mobile:       false,
+	        callback:     function(box) {
+	          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+	        }
+	      }
+	    );
+	    wow.init();
+	});
 // map
 $(".detail_mb path").each(function(){
 	$(this).mouseenter(function(event) {

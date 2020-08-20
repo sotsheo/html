@@ -1375,7 +1375,7 @@ input:focus {
     background-size: 100% 100%;
 }
 
-.news .news_carousel .owl-item:nth-child(odd) .item {
+.news .news_carousel .owl-item:nth-child(even) .item {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -1719,8 +1719,8 @@ textarea {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    height: 14px;
-    width: 14px;
+    height: 18px;
+    width: 18px;
     border-radius: 50%;
     border: 1px solid #0E0E0E;
     box-sizing: border-box;

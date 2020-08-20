@@ -123,7 +123,7 @@
   });
 
   jQuery('.news_carousel').owlCarousel({
-    loop: true,
+    loop: false,
     nav: false,
     dots: true,
     items: 3,

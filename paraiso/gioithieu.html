@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styles_t.css">
+    <link rel="stylesheet" href="./assets/css/reponse.css">
 </head>
 
 <body>
@@ -65,6 +67,7 @@
         </div>
         <!-- Header End -->
     </header>
+
     <main>
         <!--? slider Area Start -->
         <section class="breadcrumb_section">
@@ -81,12 +84,15 @@
                 </div>
             </div>
         </section>
+
         <section class="slider-area banner_area">
             <div class="banner_container">
                 <img src="./assets/img/banner.png" alt="Banner">
+                <img src="./assets/img/tn.png" class="img_button">
             </div>
         </section>
         <!-- slider Area End-->
+
         <section>
             <div class="container">
                 <div class="row">
@@ -96,7 +102,8 @@
                 </div>
             </div>
         </section>
-        <section class="intro_section">
+
+        <section class="intro_section pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -112,8 +119,21 @@
                 </div>
             </div>
         </section>
-        <section class="concept_section">
-            <div class="container">
+
+        <section class="concept_section ">
+            <div class="text_concept">
+                <div class="cs_body">
+                    <h4 class="d-flex section_title_2 section_title_af"><span>CONCEPT DỰ ÁN</span></h4>
+                    <div class="section_body">
+                        <p>Xuất phát từ trải nghiệm thực tế cuộc sống, trong hành trình “khám phá và thấu hiểu” mà tập đoàn Hà Minh Anh đã đi qua. Giữa cuộc sống bộn bề, canh cánh nỗi lo về môi trường sống, an toàn thực phẩm và an ninh trật tự. Ngay cả sự gắn kết mỗi gia đình cũng trở nên rời rạc từ những bất đồng về nhu cầu, cảm xúc khác nhau. Chính những trăn trở ấy đã khiến tập đoàn Hà Minh Anh ấp ủ khát khao Kiến Tạo một không gian sống mới đẳng cấp và đa sắc màu với đầy đủ tiện ích ngay thềm nhà, đầy khác biệt, có thể lan toả hạnh phúc, phồn vinh và thịnh vượng đến cộng đồng.</p>
+                        <p>Hiện, tỉnh Vĩnh Phúc đã phê duyệt quy hoạch tổng thể phát triển kinh tế - xã hội Vĩnh Yên đến năm 2020 và tầm nhìn đến năm 2030 nhằm xây dựng Vĩnh Yên trở thành thành phố dịch vụ, du lịch nghỉ dưỡng và du lịch sinh thái phát triển bền vững khi tận dụng sự liên hoàn của chuỗi giá trị tiện ích mà các dự án trong thành phố Vĩnh Yên mang lại.</p>
+                    </div>
+                </div>
+                <div class="cs_img_container">
+                    <img src="./assets/img/10.png" alt="Concept">
+                </div>
+            </div>
+          <!--   <div class="container">
                 <div class="row">
                     <div class="col-5 cs_body">
                         <h4 class="d-flex section_title_2 section_title_af">CONCEPT DỰ ÁN</h4>
@@ -126,9 +146,10 @@
                         <img src="./assets/img/10.png" alt="Concept">
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
-        <section class="owner_section">
+
+        <section class="owner_section pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-5 cs_body">
@@ -150,7 +171,8 @@
                 </div>
             </div>
         </section>
-        <section class="subscribing">
+
+        <section class="subscribing wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -162,9 +184,10 @@
                         <img src="./assets/img/r1.png" alt="Subscribing Image">
                     </div>
                     <div class="s_form">
-                        <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
-                            sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
-                        <form action="" method="post" class="subscribing_form">
+                        <div class="form_fix">
+                           <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
+                           sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
+                           <form action="" method="post" class="subscribing_form">
                             <input class="sf_input" type="text" name="name" placeholder="Họ và tên">
                             <div class="sf_input_row">
                                 <input class="sf_input" type="text" name="name" placeholder="Số điện thoại">
@@ -173,15 +196,15 @@
                             <strong>Chọn sản phẩm bạn quan tâm:</strong>
                             <div class="sf_checkbox_row">
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod1">
-                                    <label class="sf_check_label" for="prod1">Nhà phố thương mại shophouse</label>
+                                    <input class="d-none" type="radio" name="prod" id="prod1">
+                                    <label class="sf_check_label" for="prod1">Nhà phố thương mại <br>shophouse</label>
                                 </div>
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod2">
+                                    <input class="d-none" type="radio" name="prod" id="prod2">
                                     <label class="sf_check_label" for="prod2">Căn hộ cho thuê</label>
                                 </div>
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod3">
+                                    <input class="d-none" type="radio" name="prod" id="prod3">
                                     <label class="sf_check_label" for="prod3">Trung tâm thương mại</label>
                                 </div>
                             </div>
@@ -190,9 +213,12 @@
                             </div>
                         </form>
                     </div>
+
                 </div>
             </div>
+            </div>
         </section>
+
         <section class="contact">
             <div class="container-fluid">
                 <div class="row">
@@ -208,6 +234,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <!-- Footer Start-->
         <div class="footer-area bg_footer line">
