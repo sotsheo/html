@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/styles_t.css">
+    <link rel="stylesheet" href="./assets/css/reponse.css">
 </head>
 
 <body>
@@ -66,9 +67,10 @@
         </div>
         <!-- Header End -->
     </header>
+
     <main>
         <!--? slider Area Start -->
-        <section class="breadcrumb_section">
+        <section class="breadcrumb_section pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -83,13 +85,15 @@
                 </div>
             </div>
         </section>
+
         <section class="slider-area banner_area">
             <div class="banner_container">
                 <img src="./assets/img/ttb.png" alt="Banner">
+                <img src="./assets/img/tn.png" class="img_button">
             </div>
         </section>
         <!-- slider Area End-->
-        <section>
+        <section class="pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -98,7 +102,8 @@
                 </div>
             </div>
         </section>
-        <section class="gallery_section">
+
+        <section class="gallery_section pdd_v1">
             <div class="container video_container">
                 <div class="row">
                     <div class="col-12">
@@ -172,7 +177,8 @@
                 </div>
             </div>
         </section>
-        <section class="subscribing">
+
+        <section class="subscribing wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -184,9 +190,10 @@
                         <img src="./assets/img/r1.png" alt="Subscribing Image">
                     </div>
                     <div class="s_form">
-                        <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
-                            sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
-                        <form action="" method="post" class="subscribing_form">
+                        <div class="form_fix">
+                           <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
+                           sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
+                           <form action="" method="post" class="subscribing_form">
                             <input class="sf_input" type="text" name="name" placeholder="Họ và tên">
                             <div class="sf_input_row">
                                 <input class="sf_input" type="text" name="name" placeholder="Số điện thoại">
@@ -195,15 +202,15 @@
                             <strong>Chọn sản phẩm bạn quan tâm:</strong>
                             <div class="sf_checkbox_row">
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod1">
-                                    <label class="sf_check_label" for="prod1">Nhà phố thương mại shophouse</label>
+                                    <input class="d-none" type="radio" name="prod" id="prod1">
+                                    <label class="sf_check_label" for="prod1">Nhà phố thương mại <br>shophouse</label>
                                 </div>
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod2">
+                                    <input class="d-none" type="radio" name="prod" id="prod2">
                                     <label class="sf_check_label" for="prod2">Căn hộ cho thuê</label>
                                 </div>
                                 <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod3">
+                                    <input class="d-none" type="radio" name="prod" id="prod3">
                                     <label class="sf_check_label" for="prod3">Trung tâm thương mại</label>
                                 </div>
                             </div>
@@ -212,10 +219,13 @@
                             </div>
                         </form>
                     </div>
+
                 </div>
             </div>
+            </div>
         </section>
-        <section class="contact">
+
+        <section class="contact wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -230,9 +240,10 @@
             </div>
         </section>
     </main>
-    <footer>
+    
+    <footer class="bg_footer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <!-- Footer Start-->
-        <div class="footer-area bg_footer line">
+        <div class="footer-area  ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -258,7 +269,7 @@
                                         <div>
                                             <h6>Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD</h6>
                                             <a href="tel:0934303668"
-                                                title="Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD">0934303668</a>
+                                            title="Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD">0934303668</a>
                                         </div>
                                     </div>
                                     <div class="branch">
@@ -266,7 +277,7 @@
                                         <div>
                                             <h6>Công ty CP Dầu tư và Phân phối Minh Phương</h6>
                                             <a href="tel:0913268868"
-                                                title="Công ty CP Dầu tư và Phân phối Minh Phương">0913268868</a>
+                                            title="Công ty CP Dầu tư và Phân phối Minh Phương">0913268868</a>
                                         </div>
                                     </div>
                                     <div class="branch">
@@ -316,10 +327,18 @@
                         </div>
                         <p>Hình ảnh và nội dung thông tin tài liệu bán hàng chỉ mang tính chất tương đối và có thể được
                             chỉnh sửa để đảm bảo phù hợp với quy hoạch và thực tế thi công dự án. Các thông tin chính
-                            thước sẽ được quy định cụ thể tại Hợp đồng chính thức</p>
+                        thước sẽ được quy định cụ thể tại Hợp đồng chính thức</p>
                     </div>
-                    <div class="col-12 mt-3">
-                        <div class="social_link">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 line1">
+                        <div class="link_share">
                             <a href="#">
                                 <img src="./assets/img/fb.svg" alt="Social">
                             </a>
@@ -336,11 +355,17 @@
                                 <img src="./assets/img/inst.svg" alt="Social">
                             </a>
                         </div>
-                        <p class="group">Một sản phẩm được đầu tư và phát triển bởi tập đoàn<a href="#">
-                            <img src="./assets/img/hma.png" alt="Group">
-                        </a></p>
+                    </div>
+                    <div class=" col-lg-6 col-12 line2">
+                        <p class="group" style="text-align: center;">
+                            <span>Một sản phẩm được đầu tư và phát triển bởi tập đoàn</span>
+                            <a href="#"><img src="./assets/img/hma.png" alt="Group"></a>
+                        </p>
+                    </div>
+                    <div class=" col-lg-3 col-12 line_full">
                     </div>
                 </div>
+
             </div>
         </div>
         <!-- Footer End-->

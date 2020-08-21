@@ -2,6 +2,7 @@
     font-family: SVN_Miller_Banner;
     src: url(../fonts/SVNMillerBanner/SVN_Miller_Banner.ttf);
 }*/
+
 @font-face {
     font-family: SVN_Miller_Banner;
     src: url(../fonts/SVN-Miller_Banner.ttf);
@@ -2019,13 +2020,24 @@ textarea {
     line-height: 22px;
     color: #0E0E0E;
 }
-
+.breadcrumb_section .main_breadcrumd .breadcrumb-item{
+    position: relative;
+}
 .breadcrumb_section .main_breadcrumd .breadcrumb-item:not(:first-child)::before {
     display: inline-block;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-    color: #0E0E0E;
-    content: "|";
+    color: #000;
+    content: "";
+}
+.breadcrumb_section .main_breadcrumd .breadcrumb-item:not(:first-child)::after {
+    content: "";
+    position: absolute;
+    left:  1.5rem;;
+    top:4px;
+    width: 1px;
+    height: calc(100% - 8px);
+    background: #000;
 }
 
 .banner_area .banner_container {

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styles_t.css">
+    <link rel="stylesheet" href="./assets/css/reponse.css">
 </head>
 
 <body>
@@ -40,8 +42,11 @@
                                     <li class="active"><a title="Trang chủ" href="trangchu.html">Trang chủ</a></li>
                                     <li><a title="Giới thiệu" href="gioithieu.html">Giới thiệu</a></li>
                                     <li><a title="Tiện ích" href="tienich.html">Tiện ích</i></a> </li>
-                                    <li><a title="Trang chủ" href="trangchu.html"><img src="./assets/img/logo.png"
-                                                alt="Logo"></a></li>
+                                    <li>
+                                        <a title="Trang chủ" href="trangchu.html"><img src="./assets/img/logo.png"
+                                            alt="Logo">
+                                        </a>
+                                    </li>
                                     <li><a title="Mặt bằng" href="matbang.html">Mặt bằng</a></li>
                                     <li><a title="Tin tức" href="tintuc.html">Tin tức</a></li>
                                     <li><a title="Thư viện" href="thuvien.html">Thư viện</a></li>
@@ -65,9 +70,10 @@
         </div>
         <!-- Header End -->
     </header>
+
     <main>
-        <!--? slider Area Start -->
-        <section class="breadcrumb_section">
+        <!-- slider Area Start -->
+        <section class="breadcrumb_section pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -76,19 +82,21 @@
                               <li class="breadcrumb-item"><a href="trangchu.html" title="Trang chủ">Trang chủ</a></li>
                               <li class="breadcrumb-item"><a href="tienich.html" title="Trang chủ">Tiện ích</a></li>
                               <li class="breadcrumb-item" aria-current="page">Trung tâm thương mại</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+                          </ol>
+                      </nav>
+                  </div>
+              </div>
+          </div>
         </section>
+
         <section class="slider-area banner_area">
             <div class="banner_container">
                 <img src="./assets/img/banner.png" alt="Banner">
+                <img src="./assets/img/tn.png" class="img_button">
             </div>
         </section>
         <!-- slider Area End-->
-        <section>
+        <section class="pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -97,7 +105,8 @@
                 </div>
             </div>
         </section>
-        <section class="utility_section">
+
+        <section class="utility_section pdd_v1">
             <div class="container">
                 <div class="row">
                     <div class="col-9">
@@ -130,8 +139,8 @@
                 </div>
             </div>
         </section>
-        
-        <section class="subscribing">
+
+        <section class="subscribing wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -143,38 +152,42 @@
                         <img src="./assets/img/r1.png" alt="Subscribing Image">
                     </div>
                     <div class="s_form">
-                        <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
-                            sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
-                        <form action="" method="post" class="subscribing_form">
-                            <input class="sf_input" type="text" name="name" placeholder="Họ và tên">
-                            <div class="sf_input_row">
-                                <input class="sf_input" type="text" name="name" placeholder="Số điện thoại">
-                                <input class="sf_input" type="text" name="name" placeholder="Email">
-                            </div>
-                            <strong>Chọn sản phẩm bạn quan tâm:</strong>
-                            <div class="sf_checkbox_row">
-                                <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod1">
-                                    <label class="sf_check_label" for="prod1">Nhà phố thương mại shophouse</label>
+                        <div class="form_fix">
+                         <p>Vui lòng gửi thông tin bạn quan tâm về dự án của Paraiso City, tư vấn viên của chúng tôi
+                         sẽ liên hệ với bạn trong thời gian sớm nhất. Chân thành cảm ơn!</p>
+                            <form action="" method="post" class="subscribing_form">
+                                <input class="sf_input" type="text" name="name" placeholder="Họ và tên">
+                                <div class="sf_input_row">
+                                    <input class="sf_input" type="text" name="name" placeholder="Số điện thoại">
+                                    <input class="sf_input" type="text" name="name" placeholder="Email">
                                 </div>
-                                <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod2">
-                                    <label class="sf_check_label" for="prod2">Căn hộ cho thuê</label>
+                                <strong>Chọn sản phẩm bạn quan tâm:</strong>
+                                <div class="sf_checkbox_row">
+                                    <div class="sf_checkbox">
+                                        <input class="d-none" type="radio" name="prod" id="prod1">
+                                        <label class="sf_check_label" for="prod1">Nhà phố thương mại <br>shophouse</label>
+                                    </div>
+                                    <div class="sf_checkbox">
+                                        <input class="d-none" type="radio" name="prod" id="prod2">
+                                        <label class="sf_check_label" for="prod2">Căn hộ cho thuê</label>
+                                    </div>
+                                    <div class="sf_checkbox">
+                                        <input class="d-none" type="radio" name="prod" id="prod3">
+                                        <label class="sf_check_label" for="prod3">Trung tâm thương mại</label>
+                                    </div>
                                 </div>
-                                <div class="sf_checkbox">
-                                    <input class="d-none" type="checkbox" name="prod" id="prod3">
-                                    <label class="sf_check_label" for="prod3">Trung tâm thương mại</label>
+                                <div class="sf_button">
+                                    <button class="sf_submit" type="submit">Đăng ký</button>
                                 </div>
-                            </div>
-                            <div class="sf_button">
-                                <button class="sf_submit" type="submit">Đăng ký</button>
-                            </div>
-                        </form>
-                    </div>
+                            </form>
+                        </div>
+
                 </div>
             </div>
+            </div>
         </section>
-        <section class="contact">
+
+        <section class="contact wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -188,10 +201,12 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
+</main>
+
+<!-- footer -->
+<footer class="bg_footer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <!-- Footer Start-->
-        <div class="footer-area bg_footer line">
+        <div class="footer-area  ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -217,7 +232,7 @@
                                         <div>
                                             <h6>Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD</h6>
                                             <a href="tel:0934303668"
-                                                title="Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD">0934303668</a>
+                                            title="Công ty TNHH Tư vấn Đầu tư Xây dựng và Thương mại quốc tế TD">0934303668</a>
                                         </div>
                                     </div>
                                     <div class="branch">
@@ -225,7 +240,7 @@
                                         <div>
                                             <h6>Công ty CP Dầu tư và Phân phối Minh Phương</h6>
                                             <a href="tel:0913268868"
-                                                title="Công ty CP Dầu tư và Phân phối Minh Phương">0913268868</a>
+                                            title="Công ty CP Dầu tư và Phân phối Minh Phương">0913268868</a>
                                         </div>
                                     </div>
                                     <div class="branch">
@@ -275,10 +290,18 @@
                         </div>
                         <p>Hình ảnh và nội dung thông tin tài liệu bán hàng chỉ mang tính chất tương đối và có thể được
                             chỉnh sửa để đảm bảo phù hợp với quy hoạch và thực tế thi công dự án. Các thông tin chính
-                            thước sẽ được quy định cụ thể tại Hợp đồng chính thức</p>
+                        thước sẽ được quy định cụ thể tại Hợp đồng chính thức</p>
                     </div>
-                    <div class="col-12 mt-3">
-                        <div class="social_link">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 line1">
+                        <div class="link_share">
                             <a href="#">
                                 <img src="./assets/img/fb.svg" alt="Social">
                             </a>
@@ -295,43 +318,50 @@
                                 <img src="./assets/img/inst.svg" alt="Social">
                             </a>
                         </div>
-                        <p class="group">Một sản phẩm được đầu tư và phát triển bởi tập đoàn<a href="#">
-                            <img src="./assets/img/hma.png" alt="Group">
-                        </a></p>
+                    </div>
+                    <div class=" col-lg-6 col-12 line2">
+                        <p class="group" style="text-align: center;">
+                            <span>Một sản phẩm được đầu tư và phát triển bởi tập đoàn</span>
+                            <a href="#"><img src="./assets/img/hma.png" alt="Group"></a>
+                        </p>
+                    </div>
+                    <div class=" col-lg-3 col-12 line_full">
                     </div>
                 </div>
+
             </div>
         </div>
         <!-- Footer End-->
     </footer>
-    <!-- Search model end -->
+<!-- Search model end -->
 
-    <!-- JS here -->
+<!-- JS here -->
 
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
 
-    <!-- Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/swiper.min.js"></script>
+<!-- Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/swiper.min.js"></script>
 
-    <!-- Animated -->
-    <script src="./assets/js/wow.min.js"></script>
+<!-- Animated -->
+<script src="./assets/js/wow.min.js"></script>
 
-    <!-- Scrollup -->
-    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+<!-- Scrollup -->
+<script src="./assets/js/jquery.scrollUp.min.js"></script>
 
-    <!-- main Jquery -->
-    <script src="./assets/js/jquery.fancybox.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-
+<!-- main Jquery -->
+<script src="./assets/js/jquery.fancybox.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/thanh.js"></script>
 </body>
 
 </html>

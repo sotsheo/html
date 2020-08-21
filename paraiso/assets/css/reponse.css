@@ -80,11 +80,14 @@
 		justify-content: center;
 	}
 	.pdd_v1{
-		/*width: calc(100% - 196px);
-		min-width: calc(100% - 196px);
-		max-width: unset;*/
+		
 		padding-left: 9.8rem;
 		padding-right: 9.8rem;
+	}
+	.copyright .container{
+		width: calc(100% - 196px);
+		min-width: calc(100% - 196px);
+		max-width: unset;
 	}
 	.pdd_v1 .container,
 	.pdd_v2 .container {
@@ -92,7 +95,7 @@
 		max-width: unset;
 	}
 	.pdd_v2 {
-    	padding: 0px 5rem;
+		padding: 0px 5rem;
 	}
 	
 	.form_fix .sf_input_row{
@@ -113,14 +116,35 @@
 		padding: 0px 5rem;
 	}
 	.utilities  .container {
-    	width:100%;
+		width:100%;
+	}
+	.utilities_section .util_container .util_item:nth-child(even) .ui_info {
+		padding-right: 2.8rem;
+	}
+	.si_map {
+    	margin-bottom: 4.1rem;
+	}
+	.cs_content .section_body p{
+		font-size: 1.4rem;
+	}
+	.d-flex.section_title {
+		 margin-bottom: 3rem;
 	}
 }
 
 @media(min-width: 1400px){
+	.utilities_section .util_container .util_item .ui_info ul li {
+		font-size: 1.6rem;
+	}
 	.footer-area .partners p {
 		font-style: italic;
 		font-size: 1.4rem
+	}
+	.owner_section .see_more.mr-4{
+		font-size: 2rem;
+	}
+	.owner_section  .see_more:after {
+		width: calc(100% - 90px);
 	}
 	.footer-area .branchs .branch h6, 
 	.footer-area .branchs .branch a {
@@ -199,6 +223,14 @@
 	}
 }
 @media(max-width: 1200px){
+
+	.si_map {
+    	margin-bottom: 2rem;
+	}
+	.pdd_v1 .container{
+		width: 100%;
+		max-width: unset;
+	}
 	.subscribing{
 		margin-bottom: 5rem;
 	}
@@ -233,10 +265,23 @@
 		display: none;
 	}
 	.si_map {
-    	padding-left: 20px !important;
+		padding-left: 20px !important;
 	}
 }
 @media(max-width: 992px){
+	.text_concept {
+		flex-wrap: wrap;
+	}
+	.text_concept, 
+	.owner_section .cs_content {
+		flex-wrap: wrap;
+	}
+	.text_concept .cs_body ,
+	.text_concept .cs_img_container,
+	.owner_section .cs_body,
+	.owner_section .cs_img {
+		width: 100%;
+	}
 	.policies {
 		padding-top: 0px;
 	}
@@ -270,9 +315,22 @@
 		width: 100%;
 		margin-bottom: 10px;
 	}
+	.text_concept .cs_body,
+	.owner_section .cs_body  {
+		padding: 3rem 5rem;
+	}
+	.owner_section .cs_img {
+		padding-top: 0px;
+	}
 }
 @media(max-width: 767px){
+	.pdd_v1 ,
+	.text_concept .cs_body,
+	.owner_section .cs_body{
+	    padding-left: 1.5rem;
+	    padding-right: 1.5rem;
+	}
 	.si_map {
-    	padding-left: 0px !important;
+		padding-left: 0px !important;
 	}
 }

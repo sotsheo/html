@@ -400,7 +400,8 @@ footer{
 .news .news_carousel .item .nc_news .excerpt p {
 	margin-bottom: 2.2rem;
 }
-.subscribing .s_form .subscribing_form .sf_input {
+.subscribing .s_form .subscribing_form .sf_input,
+.contact_section .c_form .subscribing_form .sf_input {
 	border-image: linear-gradient(to right, rgb(232 214 198 / .4) 0% , rgb(183 121 65 / .7) 80%, rgb(255 209 168 / .6) 100%);
 	border-image-slice: 1;
 	margin-bottom: 3.1rem;
@@ -483,6 +484,7 @@ footer {
 }
 .copyright .group span{
 	margin-right: 1.5rem;
+
 }
 .footer-area .branchs .branch img {
 	margin-top: 5px;
@@ -517,12 +519,36 @@ footer {
 .banner_area .banner_container{
 	background: transparent;
 }
+.welcome{
+	position: relative;
+}
+.welcome:after{
+	position: absolute;
+	content: '';
+	left: -150px;
+	bottom: -2px;
+	width: 150px;
+	height: 1px;
+	background:#C4C4C4;
+}
 .img_button{
 	width: 100%;
 	margin-top: -2px;
 }
-
-
+.utility_section .util_sidebar ul li{
+	border-left: 8px solid transparent;
+	transition: all .5s;
+}
+.utility_section .util_sidebar ul li:hover {
+    background-color: #FFE4E5;
+    border-left: 8px solid #E50001;
+}
+.banner_area .banner_container {
+	padding-bottom: 0px;
+}
+.normal_news .nnews_img {
+    overflow: hidden;
+}
 /*map*/
 .detail_mb .tooltip_img{
 	position: absolute;
@@ -734,4 +760,40 @@ footer {
 }
 .section_title_2::after {
     width: calc(100% - 253px);
+}
+
+.owner_section .cs_content	{
+	display: flex;
+}
+.owner_section .cs_body {
+    width: 40%;
+    padding: 4rem 5.6rem 5rem 98px;
+}
+.owner_section .cs_img {
+    width: 60%;
+    padding: 4rem 9.8rem 0rem 0px;
+}
+.owner_section {
+    padding-top: 0px;
+}
+.d-flex.section_title{
+	line-height:normal;
+	margin-bottom: 3.8rem;
+}
+.owner_section .section_body p{
+	margin-bottom: 0px;
+}
+.owner_section .see_more.mr-4{
+	margin-top: 2rem;
+}
+.sf_input::-webkit-input-placeholder { /* Edge */
+  color: #0E0E0E;
+}
+
+.sf_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #0E0E0E;
+}
+
+.sf_input::placeholder {
+  color: #0E0E0E;
 }
