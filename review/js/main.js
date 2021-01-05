@@ -1,4 +1,10 @@
-
+$(".category_lists a").each(function(){
+    $(this).click(function(){
+        $(".category_lists a").removeClass("active");
+        $(this).addClass("active");
+        return false;
+    })
+});
 (function ($) {
     "use strict";
 

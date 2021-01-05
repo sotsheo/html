@@ -7,10 +7,18 @@
 body{
 	background: #f1f5fa;
 }
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
 .container{
 	width: 100%;
 	max-width: unset;
 	padding: 0px 30px;
+}
+img{
+	width: 100%;
 }
 a:hover{
 	text-decoration: none;
@@ -129,18 +137,17 @@ main{
 }
 .category_list ul{
 	border-top: 0px;
-	
 	padding: 5% 20px;
 }
 .category_list ul a{
 	margin-bottom: 10px;
 }
-.w30{
-	width: 30%;
+.w25{
+	width: 25%;
 	float: left;
 }
-.w40{
-	width: 40%;
+.w50{
+	width: 50%;
 	float: left;
 }
 .category_cr{
@@ -171,8 +178,11 @@ main{
 }
 .form_post{
 	background: #fff;
+	box-shadow: 1px 1px 5px 2px #dcdada;
 	position: relative;
+	margin-bottom: 20px;
 }
+
 
 textarea{
 	border: 0px;
@@ -210,4 +220,200 @@ textarea{
 	background: #ff3a1e;
 	color: #fff;
 	border-radius: 30px;
+	outline: none;
+}
+.list_news{
+	background: #fff;
+	box-shadow: 1px 1px 5px 2px #dcdada;
+}
+.category_lists ul {
+	display: flex;
+}
+.category_lists li a{
+	position: relative;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #c3c3c3 !important;
+	display: block;
+	font-weight: 600;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.category_lists li a.active{
+	color: #000 !important;
+}
+.category_lists li a.active:after{
+	position: absolute;
+	width: 30%;
+	content: '';
+	background: #de1c00;
+	height: 2px;
+	bottom: 0px;
+	left: 20%;
+	transform: translate(50%,50%);
+}
+
+.bsd{
+	box-shadow: 1px 1px 5px 2px #dcdada;
+}
+.item_news{
+	padding: 10px;
+	border-top: 1px solid #cac0c0;
+}
+.item_news .info_news{
+	display: flex;
+}
+.item_news .info_news .img_user a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.item_news .info_news .info_text{
+	padding-left: 10px;
+}
+.item_news .info_news .name_u{
+	margin-bottom: 10px;
+}
+.item_news .info_news a,
+.item_news .info_news span,
+.item_news .info_news p{
+	font-size: 14px;
+}
+.item_news .info_text{
+	width: calc(100% - 40px);
+}
+.item_news .list_img{
+	margin-bottom: 10px;
+	display: grid;
+}
+.item_news .list_img.count3{
+  	grid-column-gap: 10px;
+  	grid-template-columns: auto auto auto;
+	align-items: center;
+}
+.item_news .list_img.count3 a{
+	/*width: 33.33%;*/
+	border-radius: 20px;
+}
+.item_news .info_text .action_news ul{
+	display: flex;
+}
+.item_news .info_text .action_news ul a{
+	padding: 10px;
+	color: #c3c3c3;
+}
+.item_news .info_text .action_news ul a.like:hover {
+	color: #ff3a1e;
+}
+.item_news .info_text .action_news ul a.like:hover i{
+	color: #ff3a1e;
+}
+.pl-20{
+	padding-left: 20px;
+}
+.info_user_c{
+	background: #fff;
+}
+.info_user_c .img_bg{
+	height: 100px;
+}
+.info_c{
+	margin-top: -40px;
+	text-align: center;
+}
+.info_c a{
+	display: block;
+	margin:  0 auto;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.info_c a img{
+	border-radius: 50%;
+	height: 100%;
+}
+.info_c >p{
+	    font-size: 18px;
+    color: #ff3a1e;
+    font-weight: 600;
+}
+.info_c ul {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.info_c ul li{
+	width: 50%;
+	padding: 5px 0px;
+	border-right: 1px solid #f1efef;
+}
+.info_c ul li:last-child{
+	border-right:0px;
+}
+
+.info_c ul li p{
+	font-size: 16px;
+	margin: 0px;
+	/*margin-bottom: 2px;*/
+	font-weight: 600;
+	color: #8a8a8a;
+	
+}
+.mg-b20{
+	margin-bottom: 20px;
+}
+.info_c ul li p:first-child{
+	font-size: 14px;
+	color: #c3c3c3;
+}
+.album_list{
+	padding: 10px;
+}
+.album_list .title{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #f1efef;
+	padding-bottom: 3px;
+}
+.album_list .title span{
+	font-size: 14px;
+	font-weight: 500;
+	 text-transform: uppercase;
+}
+.album_list .title span:nth-child(2){
+	font-size: 12px;
+	color: blue;
+}
+.list_imgs{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+  	grid-gap: 5px;
+}
+.list_imgs a:first-child img{
+	height: 100%;
+}
+.list_imgs a:first-child{
+
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+.list_imgs a:nth-child(4){
+	grid-column-start: 2;
+  	grid-column-end: 4;
+}
+@media(min-width:1660px ){
+	.container{
+		width: 70%;
+		max-width: 70%;
+	}
+}
+@media(max-width:1659px ){
+	.container{
+		width: 90%;
+		max-width: 90%;
+	}
 }
