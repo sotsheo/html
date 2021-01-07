@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trang chủ</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/vensdor/bootstrap.css" rel="stylesheet" />
+<link href="css/vensdor/font-awesome.css" rel="stylesheet" />
+<link href="css/vensdor/animate.css" rel="stylesheet" />
+<link href="css/vensdor/aos.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/vensdor/slick.css"/>
+<link rel="stylesheet" href="css/vensdor/jquery.fancybox.min.css" />
+<link rel="stylesheet" href="css/vensdor/product.css" />
+
+<link href="css/style.css" rel="stylesheet" />
+
+<!-- Modernizr -->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="header before-loading">
+		<div class="box-search-show">
+		    <form method="get" action="/tim-kiem.html?t=1" class="searchform" role="search">
+		        <div class="close">x</div>
+		        <input type="text" class="form-control" name="q" placeholder="Tìm kiếm tin bài..." autocomplete="off" value="">
+		        <button><i class="fa fa-search"></i></button>
+		    </form>
+		</div>
+		<div class="lds-facebook"><div></div><div></div><div></div></div>
+		<div class="top-header">
+			<div class="container">
+				<div class="left">
+					<p>
+						<span><i class="fa fa-phone"></i> Hotline: 0916 11 38 38 </span>
+						<span>|</span>  
+						<span>Địa chỉ: 335 Cầu Giấy, Xuân Thủy, Hà Nội</span>       
+					</p>
+				</div>
+				<div class="right">
+					<div class="box-shopping-cart">
+						<a href="">Giỏ hàng  <i class="fa fa-shopping-cart" aria-hidden="true"></i>  <span>(0)</span></a>      
+					</div>
+					<span>|</span>  
+					<div class="languages-box">
+						<select name="" id="">
+							<option value="0" selected="selected">Ngôn ngữ</option>
+							<option value="1">Tiếng Việt</option>
+							<option value="2">Tiếng Anh</option>
+							<option value="3">Tiếng Trung</option>
+						</select>
+					</div>
+					<div class="search-icon">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-menu">
+			<div class="container">
+				<div class="main-menu menu-left">
+					<ul>
+						<li>
+							<a href="">
+								Trang chủ
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Giới thiệu
+							</a>
+							<ul>
+	                            <li>
+	                                <a href="">Giới thiệu</a>
+	                                <ul>
+	                                    <li>
+	                                        <a href="">Menu cap 3</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">Menu cap 3</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">Menu cap 3</a>
+	                                    </li>
+	                                </ul>
+	                                <span class="span-lv-2 fa fa-angle-down"></span>
+	                            </li>
+	                            <li>
+	                                <a href="">Đối tác</a>
+	                            </li>
+	                            <li>
+	                                <a href="">Liên hệ</a>
+	                            </li>
+	                        </ul>
+	                        <span class="span-lv-1 fa fa-angle-down"></span>
+						</li>
+						<li>
+							<a href="#">
+								Sản phẩm
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="logo">
+					<a href="">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="main-menu menu-right">
+					<ul>
+						<li>
+							<a href="">
+								Khách hàng
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Đại lý
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Liên hệ
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="iconmenu">  <!-- data-wow-delay="4s" data-wow-duration="1s" -->
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="shadow-menu"></div>
+	</div>
+
+	<div class="wapper hidden-main" id="main">
+		<div class="banner-inpage">
+			<img src="images/banner-inpage.jpg" alt="">
+		</div>
+		<div class="breadcrumb">
+			<div class="container">
+				<a href="">Trang chủ</a>
+				<span>//</span>
+				<p>Giới thiệu</p>
+			</div>
+		</div>
+		<div class="daily-page">
+            <div class="container">
+				<div class="title-standard center">
+					<h2>Đại lý phân phối</h2>
+				</div>
+            	<div class="filter-store">
+            		<div class="row">
+            			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            				<select name="province" id="filter_province">
+            					<option value="">Chọn thành phố / tỉnh</option>
+            					<option value="01">Hà Nội</option>
+            					<option value="02">Hà Giang</option>
+            					<option value="04">Cao Bằng</option>
+            					<option value="06">Bắc Kạn</option>
+            					<option value="08">Tuyên Quang</option>
+            					<option value="10">Lào Cai</option>
+            					<option value="11">Điện Biên</option>
+            					<option value="12">Lai Châu</option>
+            					<option value="14">Sơn La</option>
+            					<option value="15">Yên Bái</option>
+            					<option value="17">Hòa Bình</option>
+            					<option value="19">Thái Nguyên</option>
+            					<option value="20">Lạng Sơn</option>
+            					<option value="22">Quảng Ninh</option>
+            					<option value="24">Bắc Giang</option>
+            					<option value="25">Phú Thọ</option>
+            					<option value="26">Vĩnh Phúc</option>
+            					<option value="27">Bắc Ninh</option>
+            					<option value="30">Hải Dương</option>
+            					<option value="31">Hải Phòng</option>
+            					<option value="33">Hưng Yên</option>
+            					<option value="34">Thái Bình</option>
+            					<option value="35">Hà Nam</option>
+            					<option value="36">Nam Định</option>
+            					<option value="37">Ninh Bình</option>
+            					<option value="38">Thanh Hóa</option>
+            					<option value="40">Nghệ An</option>
+            					<option value="42">Hà Tĩnh</option>
+            					<option value="44">Quảng Bình</option>
+            					<option value="45">Quảng Trị</option>
+            					<option value="46">Thừa Thiên Huế</option>
+            					<option value="48">Đà Nẵng</option>
+            					<option value="49">Quảng Nam</option>
+            					<option value="51">Quảng Ngãi</option>
+            					<option value="52">Bình Định</option>
+            					<option value="54">Phú Yên</option>
+            					<option value="56">Khánh Hòa</option>
+            					<option value="58">Ninh Thuận</option>
+            					<option value="60">Bình Thuận</option>
+            					<option value="62">Kon Tum</option>
+            					<option value="64">Gia Lai</option>
+            					<option value="66">Đắk Lắk</option>
+            					<option value="67">Đắk Nông</option>
+            					<option value="68">Lâm Đồng</option>
+            					<option value="70">Bình Phước</option>
+            					<option value="72">Tây Ninh</option>
+            					<option value="74">Bình Dương</option>
+            					<option value="75">Đồng Nai</option>
+            					<option value="77">Bà Rịa - Vũng Tàu</option>
+            					<option value="79">Hồ Chí Minh</option>
+            					<option value="80">Long An</option>
+            					<option value="82">Tiền Giang</option>
+            					<option value="83">Bến Tre</option>
+            					<option value="84">Trà Vinh</option>
+            					<option value="86">Vĩnh Long</option>
+            					<option value="87">Đồng Tháp</option>
+            					<option value="89">An Giang</option>
+            					<option value="91">Kiên Giang</option>
+            					<option value="92">Cần Thơ</option>
+            					<option value="93">Hậu Giang</option>
+            					<option value="94">Sóc Trăng</option>
+            					<option value="95">Bạc Liêu</option>
+            					<option value="96">Cà Mau</option>
+            				</select>
+            			</div>
+            			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            				<select name="district" id="filter_district">
+            					<option value="">Chọn thành quận / huyện</option>
+            				</select>
+            			</div>
+            			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            				<select name="ward" id="filter_ward">
+            					<option value="">Chọn xã / phường</option>
+            				</select>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="list-store">
+            		<div class="map">
+            			<div class="mapIframe">
+            				<img src="images/map.jpg" alt="">
+            			</div>
+            		</div>
+            		<div class="list-item">
+            			<div class="item-store changesrc active">
+            				Tổng đại lý                        
+            			</div>
+            			<div class="item-store changesrc" >
+            				Đại lý số 1                        
+            			</div>
+            			<div class="item-store changesrc">
+            				Đại lý số 2                        
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+		<div class="social-index">
+			<div class="bg" style="background-image: url(images/bg-6.jpg)"></div>
+			<div class="title-standard haslogo center">
+				<img src="images/logo.png" alt="">
+				<h2>Trưởng thành cùng trẻ</h2>
+			</div>
+			<div class="list-social">
+				<div class="container">
+					<a href="">
+						<img src="images/social7.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social6.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social5.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social4.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social3.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social2.png" alt="">
+					</a>
+					<a href="">
+						<img src="images/social1.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="brand-index">
+			<div class="container">
+				<div class="slider-brand">
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand1.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand2.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand3.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand4.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand5.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand6.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-brand">
+						<div class="vertical">
+							<div class="middle">
+								<a href="">
+									<img src="images/brand6.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="bg" style="background-image: url(images/bg-footer.jpg)"></div>
+		<div class="container">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="content-footer">
+					<div class="logo-footer">
+						<a href="">
+							<img src="images/logo.png" alt="">
+						</a>
+					</div>
+					<p>
+						<i class="fa fa-map-marker"></i> Nhà liền kề số 60-LK6B, làng Việt Kiều Châu Âu, Mộ Lao, Hà Đông, HN
+					</p>
+					<p>
+						<i class="fa fa-phone"></i> Hotline: <a href="">024 3733 7788</a>
+					</p>
+					<p>
+						<i class="fa fa-envelope"></i> <a href="">info@bosskids.com</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="menu-footer">
+					<h2>
+						Chính sách và hỗ trợ
+						<br>
+						<img src="images/dots.png" alt="">
+					</h2>
+					<ul>
+						<li>
+							<a href=""><i class="fa fa-caret-right"></i> Hướng dẫn mua hàng</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-caret-right"></i> Hướng dẫn thanh toán</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-caret-right"></i> Hướng dẫn đổi trả</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-caret-right"></i> Chính sách giao hàng</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-caret-right"></i> Điều khoản sử dụng</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="menu-footer">
+					<h2>
+						Chính sách và hỗ trợ
+						<br>
+						<img src="images/dots.png" alt="">
+					</h2>
+					<ul>
+						<li>
+							<a class="fb" href=""><i class="fa fa-caret-right"></i> Facebook</a>
+						</li>
+						<li>
+							<a class="inta" href=""><i class="fa fa-caret-right"></i> Instagram</a>
+						</li>
+						<li>
+							<a class="lin" href=""><i class="fa fa-caret-right"></i> Linkedin</a>
+						</li>
+						<li>
+							<a class="zl" href=""><i class="fa fa-caret-right"></i> Zalo</a>
+						</li>
+						<li>
+							<a class="yt" href=""><i class="fa fa-caret-right"></i> Youtube</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="menu-footer">
+					<h2>
+						Nhận khuyến mãi 
+						<br>
+						<img src="images/dots.png" alt="">
+					</h2>
+					<div class="newsletter">
+						<form action="">
+							<input type="text" placeholder="Tên của bạn">
+							<input type="text" placeholder="Email của bạn">
+							<button class="button-form">Nhận thông tin</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/aos.js" type="text/javascript"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+	setTimeout(function(){
+	  $('.header').removeClass('before-loading');
+	  $('#main').removeClass('hidden-main');
+	}, 1500);
+</script>
+<script>
+	$('.banner-slider-index').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: false,
+		arrows:true,
+		infinite: true,
+		speed: 1500,
+		fade: true,
+		cssEase: 'linear'
+	});
+	$('.slider-brand').slick({
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		arrows: true,
+		dots:false,
+		infinite: false,
+		responsive: [
+			{
+				breakpoint: 440,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 1920,
+				settings: {
+					slidesToShow: 6,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	$('.slide-reviews').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		arrows: true,
+		dots:false,
+		infinite: false,
+		responsive: [
+			{
+				breakpoint: 440,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 1920,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	$('[data-fancybox="gallery"]').fancybox({
+		// Options will go here
+	});
+</script>
+<script>
+	$(document).ready(function(e){
+		AOS.init();
+		wow = new WOW(
+	      {
+	        animateClass: 'animated',
+	        offset:       0,
+	        callback:     function(box) {
+	          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+	        }
+	      }
+	    );
+	    wow.init();
+	});
+</script>
+</body>

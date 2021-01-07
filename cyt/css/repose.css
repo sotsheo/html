@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px){
+	.menu{
+		display: none;
+	}
+	.menu-btn-show {
+		display: block;
+		top: 40px;
+	}
+	header .container{
+		background: transparent !important;
+	}
+}
