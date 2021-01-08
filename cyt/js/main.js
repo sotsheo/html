@@ -64,8 +64,10 @@ $(document).ready(function(){
         var y = window.scrollY;
         if (y > 10) {
             $("body").addClass("fixed");
+            $('.scrollup').addClass("active");
         } else {
             $("body").removeClass("fixed");
+            $('.scrollup').removeClass("active");
         };
     };
     window.addEventListener("scroll", myScrollFunc);
@@ -133,4 +135,38 @@ $(".list_news").slick({
   slidesToScroll: 1,
   nextArrow:'<button class="button_click button_click_right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
   prevArrow:'<button class="button_click "><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+});
+$(".slider_banner").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+$(".title_r_v4 a").each(function(index){
+    $(this).click(function(){
+        $(".page_v").removeClass("active");
+        $(".page_v").each(function(i){
+            if(index==i){
+                $(this).addClass("active");
+                return false;
+            }
+        });
+        return false;
+    });
+});
+$(document).ready(function(){
+    $('.scrollup').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
 });
