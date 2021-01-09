@@ -101,6 +101,19 @@
 	.time_mobile{
 		display: block;
 	}
+	.right_document{
+		width: 100%;
+		float: left;
+	}
+
+	.left_document{
+		width: 100%;
+		float: right;
+	}
+	.fl-rev{
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
 
 @media screen and (max-width: 500px){

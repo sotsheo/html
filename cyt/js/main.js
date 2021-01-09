@@ -170,3 +170,9 @@ $(document).ready(function(){
         return false;
     });
 });
+$(".list_category i").each(function(index){
+    $(this).click(function(){
+        $(this).closest("li").toggleClass("active");
+        return false;
+    });
+});
